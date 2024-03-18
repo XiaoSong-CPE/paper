@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { NCard, NFlex } from 'naive-ui'
+import { NCard, NFlex, NUl, NLi, NDivider } from 'naive-ui'
 </script>
 
 <template>
@@ -18,4 +18,10 @@ import { NCard, NFlex } from 'naive-ui'
       </n-card>
     </router-link>
   </n-flex>
+  <n-divider />
+  <n-ul>
+    <n-li>1. 如何判断英文是否“错误”？牛津词典和牛津英语语法？</n-li>
+    <n-li>2. 如何对英语地区科技馆进行调查？随机抽样？</n-li>
+    <n-li>3. 近期（专八考试前）论文进度安排？</n-li>
+  </n-ul>
 </template>

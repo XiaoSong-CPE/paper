@@ -50,11 +50,12 @@ let list = [
   },
   {
     text: '北京科技馆实地考察与图片记录',
-    progress: 0.81
+    progress: 1,
+    date: '2024-3-15'
   },
   {
     text: '图片整理和文字转写',
-    progress: 0.01
+    progress: 0.02
   },
   {
     text: '初步翻译质量评估与Demo撰写',

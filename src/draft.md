@@ -1,16 +1,49 @@
-# A Study on Quality Assessment of English Internationalization in Science Museums in Beijing
+<div class="col-span">
 
 [[toc]]
 
-## 1. Introduction
+</div>
+
+---
+
+<header class="col-span">
+  <h1 class="title counter-skip">English Quality Assessment in Science Museum</h1>
+  <h2 class="subtitle counter-skip">A Case Study at China Science and Technology Museum</h2>
+  <div class="authors col-2">
+    <div class="author">
+      <div>Authors Name/s per 1st Affiliation (<em>Author</em>)</div>
+      <div>line 1 (of <em>Affiliation</em>): dept. name of organization</div>
+      <div>line 2: name of organization, acronyms acceptable</div>
+      <div>line 3: City, Country</div>
+      <div>line 4: e-mail address if desired</div>
+    </div>
+    <div class="author">
+      <div>Authors Name/s per 2nd Affiliation (<em>Author</em>)</div>
+      <div>line 1 (of <em>Affiliation</em>): dept. name of organization</div>
+      <div>line 2: name of organization, acronyms acceptable</div>
+      <div>line 3: City, Country</div>
+      <div>line 4: e-mail address if desired</div>
+    </div>
+  </div>
+</header>
+
+<div class="abstract">
+  <p><em>Abstract</em>—This electronic document is a <q>live</q> template and already defines the components of your paper [title, text, heads, etc.] in its style sheet. <em style="color: red;">*CRITICAL: Do Not Use Symbols, Special Characters, or Math in Paper Title or Abstract.</em> (<em style="font-weight: normal;">Abstract</em>)</p>
+  <p><em>Keywords</em>—<em>component; formatting; style; styling; insert (<span style="font-weight: normal;">key words</span>)</em>
+<span class="footnote">Identify applicable sponsor/s here. If no sponsors, delete this text box (<em>sponsors</em>).</span></p>
+</div>
+
+# Introduction
+
+<section>
 
 Derived from the progress of multimedia interactive entertainment software (MIES), the concept of internationalization is introduced to the field of translation. Internationalization, a superset of translation, encompasses various elements, including translation itself and aspects such as multimedia and interactivity. This broader perspective significantly influences the development of translation studies. This paper aims to apply certain MIES internationalization theories and practices to a domain beyond MIES, specifically addressing translation or internationalization issues within science museums in Beijing. From this novel viewpoint, this identify errors in the English internationalization in science museums in Beijing, ranging from traditional concerns like incorrect spelling, punctuation, and grammar to MIES-specific problems such as inappropriate typography and the absence of multimedia translation.
 
-### 1.1. Research Background
+## Research Background
 
 This study is contextualized by two pivotal factors: the rapidly expanding MIES industry (as well as its internationalization industry) and the increasing significance of science museums in Beijing. Subsequently, this chapter will delineate each of these factors individually.
 
-#### 1.1.1. MIES Internationalization
+### MIES Internationalization
 
 Historically, Translation Studies have primarily focused on textual analysis, neglecting the dynamic nature of intercultural communication. With the rise of digital technology, translation has evolved to encompass multimedia and interactive entertainment products, particularly MIES. As has been previously discussed by Bernal-Merino^[MERINO M B. On the Translation of Video Games[J]. The Journal of Specialised Translation, 2006. ], MIES combines in one product characteristics of other arts and disciplines such as film, literature, 3-D design and computer programming and provides multimedia and unparalleled interactivity, challenging traditional translation paradigms.
 
@@ -24,7 +57,7 @@ Internationalization surpasses mere translation; it tailors a MIES to the cultur
 
 MIES mark a new frontier in translation studies, where interactivity and internationalization assume paramount importance. Preserving the interactive essence of MIES while adapting them to diverse linguistic and cultural contexts poses a challenge. As MIES continue to evolve, the field of translation must also evolve, embracing the complexities of intercultural communication and the creative possibilities of interactive storytelling.
 
-#### 1.1.2. Science Museums in Beijing
+### Science Museums in Beijing
 
 In an era characterized by globalization and the pervasive influence of information technology, science museums have emerged as pivotal contributors to the dissemination of scientific knowledge and cultural exchange. Beijing, serving as the capital of China, stands at the forefront of this transformative movement, hosting an array of science museums that cater to both local and international audiences. The significance of English internationalization within these institutions cannot be overstated, as it not only facilitates cross-cultural communication but also amplifies the global impact of Beijing's science education endeavors.
 
@@ -112,13 +145,13 @@ The "Belt and Road" initiative (BRI), spearheaded by China, further underscores 
 
 In conclusion, the imperative of English internationalization in Beijing's science museums is pivotal for augmenting international communication, fostering cultural exchange, and showcasing China's scientific accomplishments on a global platform. As China continues to actively participate in global scientific discourse, the significance of precise and culturally sensitive translation will only escalate, ensuring that Beijing's science museums remain accessible and captivating to visitors from across the globe.
 
-### 1.2. Research Objectives
+## Research Objectives
 
 As previously highlighted, MIES internationalization offers a novel perspective for evaluating what is conventionally termed "translation." This approach introduces two additional dimensions for evaluation: multimedia and interactivity. Recognizing certain shared characteristics between the MIES internationalization industry and science museums, both involving multimedia and interactivity, this study aims to leverage these dimensions, alongside the textual element, to assess Chinese-English translation within science museums in Beijing. To streamline the expression and distinguish it from traditional translation quality assessments, this new perspective is termed "internationalization quality assessment" in this paper.
 
 The research objectives are twofold. Firstly, the study endeavors to identify latent errors within the internationalization of science museums in Beijing. To ensure objectivity, all assessments will adhere to widely acknowledged standards, which will be comprehensively introduced in the methodology chapter. Secondly, the research aims to delve into the root causes of these identified mistakes and subsequently provide insightful solutions to prevent their recurrence. This dual-pronged approach contributes practical strategies for elevating the quality of Chinese-English translations in the context of science museums in Beijing.
 
-### 1.3. Research Significance
+## Research Significance
 
 This study is completely meaningless to the adcamic circle.
 
@@ -126,11 +159,15 @@ This study is completely meaningless to the adcamic circle.
 Make up some significance.
 :::
 
-## 2. Literature and Practice Review
+</section>
+
+# Literature and Practice Review
+
+<section>
 
 As highlighted earlier, this study delves into three dimensions of internationalization: text, multimedia, and interactivity. This chapter will provide a concise introduction to each of these aspects.
 
-### 2.1. Translation of Text
+## Translation of Text
 
 Among the three dimensions under consideration, text translation stands out as the most extensively studied field due to the historical prominence of text as a medium for information exchange. Within the context of internationalization in science museums, a seminal theory is the linguistic landscape introduced by Landry and Bourhis^[LANDRY R, BOURHIS R Y. Linguistic Landscape and ethnolinguistic vitality[J]. Journal of Language and Social Psychology, 1997, 16(1): 23–49.]. This theory defines linguistic landscape as the language present on public signs, encompassing road signs, billboards, street names, place names, shop signs, and public building signs within a defined territory, region, or city group. Widely cited, this definition is considered a classic in the field, with other scholars emphasizing the public space as the foundational backdrop of linguistic landscape. For example, Ben-Rafael^[BEN-RAFAEL E. A sociological approach to the study of Linguistic Landscapes[J]. Linguistic Landscape, 2008: 48–62.] employs the concept of the "public sphere" proposed by German sociologist Habermas to describe the public spaces where signs are present.
 
@@ -140,7 +177,7 @@ Another frequently cited concern is the proficiency in **writing English**. Sun 
 
 Some scholars have also raised concerns about **style and tone**. In the research conducted by Ding Rongrong^[丁容容. 全球化与旅游景点公共标识语翻译研究[J]. 黎明职业大学学报, 2010(04):82-86. DOI:10.13446/j.cnki.jlvu.000907.], concerns were raised about the use of terms such as "old," "disabled," and "pregnant" in public spaces, deeming them sensitive and inappropriate. However, it is important to note that this perspective may lack objectivity. For instance, Ding Rongrong proposes replacing the directive "SUNDRIES PROHIBIT" with a milder expression like "PLEASE DON'T LITTER," advocating for a more considerate tone. Nevertheless, this argument falls short as it fails to offer a systematic method for determining which words, under specific circumstances, might be considered too harsh or inappropriate. In this study, open-source language models are employed to assess the sentiment and formality of text within science museums in Beijing. This evaluation aims to determine the appropriateness of language use while maintaining objectivity, as detailed in the methodology chapter.
 
-### 2.2. Translation of Multimedia
+## Translation of Multimedia
 
 In this section, the focus shifts to the translation of multimedia, considering **typography** as an integral component. Typography, being more of a practical concern than a theoretical one, has received limited attention in academic literature. Notably, the field of web typography, guided by Google, the developer of the widely used Chrome browser, has provided normative guidelines for web typography. This paper will utilize Google's normative guides to analyze the typography employed in science museums in Beijing, excluding subjective informative guides. Further details will be presented in the methodology chapter.
 
@@ -302,7 +339,7 @@ This paper will apply a similar conceptual framework to assess the quality of mu
 Develop or find an objective method for evaluating the quality of multimodal translation.
 :::
 
-### 2.3. Translation of Interactivity
+## Translation of Interactivity
 
 Although the term "interactivity" might appear to be a recent concept primarily associated with computer technology, its roots are neither novel nor confined solely to digital media. This term has previously been employed to convey that recipients wield the capability to shape their encounter with a specific product or service and its ultimate outcome.
 
@@ -312,23 +349,25 @@ The disintegration of interactive text stands as a pivotal concern in the locali
 Develop or find an objective method for evaluating the quality of interactivity translation.
 :::
 
-## 3. Methodology
+</section>
+
+# Methodology
+
+<section>
 
 This chapter comprises two distinct sections: data collection and internationalization analysis. The data collection section delineates the methodology employed and specifies the time during which the data were gathered. Conversely, the internationalization analysis section provides a detailed exposition of the analytical approach utilized and elucidates the rationale behind selecting these particular methods.
 
-### 3.1. Data Collection
+## Data Collection
 
 Go to the target science museums in Beijing in person and collect the data by taking photos.
 
-:::tip TO DO
 TBD
-:::
 
-### 3.2. Internationalization Analysis
+## Internationalization Analysis
 
 This study has selected a set of standard for analyzing the quality of internationalization in science museums in Beijing. An evident shortcoming of this analytical approach is that the quality of the selected standards will undoubtedly impact the evaluation results. In this specific context, standards recognized by China's authorities are deemed as the "truth," while others may not be as fortunate. Despite this notable limitation, standards also confer benefits, specifically objectivity. In the realm of studies on machine translation, for instance, the customary assessment of translation quality involves comparing machine-translated text to human-translated text, serving as the standard. While the latter may not always be the optimal benchmark, leading to less accurate assessment results, this standardized method ensures justice. If one object receives an inflated score, others under the same circumstances are similarly affected. Taking this into consideration, this paper adopts a standardized approach to conduct the assessment of internationalization quality, aiming to ensure objectivity.
 
-#### 3.2.1 Writing English
+### Writing English
 
 Rules governing spelling, hyphenation, capitalization, word breaks, emphasis, punctuation, and other aspects are ubiquitous. The pivotal question revolves around determining the most widely acknowledged standard, given the potential conflicts inherent in various rule sources.
 
@@ -342,97 +381,77 @@ In contrast to German, English orthographic reforms lack systematicity or widesp
 - The guide is a freely accessible open-source document.
 - The guide references various other acknowledged standards, such as the _New Oxford Dictionary for Writers and Editors_, as supplementary resources.
 
-#### 3.2.2. Consistency
+### Consistency
 
 Check if the same word is translated differently in different places.
 
-:::tip TO DO
 TBD
-:::
 
-#### 3.2.3. Style and Tone
+### Style and Tone
 
 Use large language models to evaluate the sentiment^[CAMACHO-COLLADOS J, REZAEE K, RIAHI T, 等. TWEETNLP: Cutting-edge natural language processing for social media[J]. Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing: System Demonstrations, 2022. ]^[LOUREIRO D, BARBIERI F, NEVES L, 等. TimeLMs: Diachronic language models from Twitter[J]. Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics: System Demonstrations, 2022. ] and formality^[BABAKOV N, DALE D, GUSEV I, 等. Don’t lose the message while paraphrasing: A study on content preserving style transfer[J]. Natural Language Processing and Information Systems, 2023: 47–61. ] of the text.
 
-:::tip TO DO
 TBD
-:::
 
-#### 3.2.4. Typography
+### Typography
 
 Utilize Google’s normative guides to analyze the typography employed in science museums in Beijing, excluding subjective informative guides.
 
-:::tip TO DO
 TBD
-:::
 
-#### 3.2.5. Multimodal
+### Multimodal
 
 Check if images, audios, videos and so on are translated.
 
-:::tip TO DO
 TBD
-:::
 
-#### 3.2.6. Interactivity
+### Interactivity
 
 Check if all interactive progress are translated.
 
-:::tip TO DO
 TBD
-:::
 
-## 4. Results and Discussion
+</section>
 
-:::tip TO DO
+# Results and Discussion
+
+<section>
+
 TBD
-:::
 
-### 4.1. Writing English
+## Writing English
 
-:::tip TO DO
 TBD
-:::
 
-### 4.2. Consistency
+## Consistency
 
-:::tip TO DO
 TBD
-:::
 
 - Br En mix Am En
 - same zh term share diff en term
 
-### 4.3. Style and Tone
+## Style and Tone
 
-:::tip TO DO
 TBD
-:::
 
-### 4.4. Typography
+## Typography
 
-:::tip TO DO
 TBD
-:::
 
-### 4.5. Multimodal
+## Multimodal
 
-:::tip TO DO
 TBD
-:::
 
-### 4.6. Interactivity
+## Interactivity
 
-:::tip TO DO
 TBD
-:::
 
-## 5. Conclusion
+</section>
 
-:::tip TO DO
+# Conclusion
+
+<section>
+
 TBD
-:::
 
-## 6. Annex
-
-## 7. References
+</section>
