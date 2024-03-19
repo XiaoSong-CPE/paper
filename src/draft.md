@@ -429,6 +429,7 @@ TBD
 
 - Br En mix Am En
 - same zh term share diff en term
+- book name => italic or capitalised or quotation
 
 ## Style and Tone
 

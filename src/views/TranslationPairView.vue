@@ -2,10 +2,13 @@
 import { NDataTable, type DataTableColumns } from 'naive-ui'
 import csv from '@/translation-pair.csv?raw'
 import MarkdownIt from 'markdown-it'
+import markdownItKatex from '@iktakahiro/markdown-it-katex'
 import { h } from 'vue'
 import { parse } from 'csv-parse/browser/esm/sync'
+import 'github-markdown-css/github-markdown.css'
 
-let md = new MarkdownIt()
+let md = new MarkdownIt().use(markdownItKatex)
+
 type RawData = {
   Chinese: string
   English: string
@@ -31,6 +34,11 @@ let rowData: RowData[] = rawData.map((row, index) => {
     key: index
   }
 })
+
+// reverse csv order for dev purpose
+if (import.meta.env.DEV) {
+  rowData.reverse()
+}
 
 let columns: DataTableColumns<RowData> = [
   {
@@ -69,3 +77,9 @@ let columns: DataTableColumns<RowData> = [
     size="small"
   />
 </template>
+
+<style>
+.katex-html {
+  display: none;
+}
+</style>
