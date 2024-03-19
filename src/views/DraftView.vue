@@ -3,8 +3,10 @@ import markdownIt from 'markdown-it'
 import markdownItAnchor from 'markdown-it-anchor'
 import markdownItTOC from 'markdown-it-table-of-contents'
 import markdownItFootnote from 'markdown-it-footnote'
+import markdownItContainer from 'markdown-it-container'
+import * as echarts from 'echarts'
 import draftString from '@/draft.md?raw'
-import { onMounted } from 'vue'
+import { nextTick, onMounted } from 'vue'
 import '@/assets/pubcss-ieee.css'
 // import '@/assets/pubcss-acm-sig.css'
 // import '@/assets/pubcss-acm-sigchi-ea.css'
@@ -20,6 +22,17 @@ let md = markdownIt({
     includeLevel: [1, 2, 3, 4]
   })
   .use(markdownItFootnote)
+  .use(markdownItContainer, 'echarts', {
+    validate: (params: any) => params.trim().match(/^echarts\s+(.*)$/),
+    render: (tokens: any, idx: any) => {
+      if (tokens[idx].nesting === 1) {
+        const m = tokens[idx].info.trim().match(/^echarts\s+(.*)$/)
+        return `<figure class="echarts">\n<div style="width: 100%; height: auto"></div>\n<figcaption>${m[1]}</figcaption>`
+      } else {
+        return '</figure>'
+      }
+    }
+  })
 
 /*
  * change footnote html
@@ -38,12 +51,35 @@ md.renderer.rules.footnote_open = (tokens, idx, options, env, slf) => {
 md.renderer.rules.footnote_close = () => '</cite>'
 
 let draft = md.render(draftString)
-console.log(draft)
+// console.log(draft)
 
-onMounted(() => {
+onMounted(async () => {
   // remove p tag in cite
   document.querySelectorAll('.references cite>p').forEach((cite) => {
     cite.outerHTML = cite.innerHTML
+  })
+  // render echarts
+  document.querySelectorAll('.echarts').forEach(async (echartsFigure) => {
+    const json = echartsFigure.querySelector('pre')?.textContent
+    if (!json) return
+    const option = JSON.parse(json)
+    const div = echartsFigure.querySelector('div')
+    if (!div) return
+    const chart = echarts.init(div, null, {
+      renderer: 'svg',
+      width: '720px',
+      height: '480px'
+    })
+    chart.setOption(option)
+    // resize svg after echarts is rendered
+    await nextTick()
+    div.querySelector('div')?.setAttribute('style', 'width: 100%; height: auto')
+    const svg = div.querySelector('svg')
+    if (!svg) return
+    svg.setAttribute('width', '100%')
+    svg.removeAttribute('height')
+    svg.setAttribute('viewBox', `0 0  720 480`)
+    svg.removeAttribute('style')
   })
 })
 </script>
@@ -55,5 +91,8 @@ onMounted(() => {
 <style>
 body {
   background-color: white;
+}
+figure pre {
+  display: none;
 }
 </style>

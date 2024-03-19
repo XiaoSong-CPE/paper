@@ -63,70 +63,63 @@ In an era characterized by globalization and the pervasive influence of informat
 
 The imperative of English internationalization is accentuated by the surge in inbound tourism in China. Since the initiation of reforms and opening up, China's inbound tourism industry has witnessed unprecedented growth. According to data from the National Bureau of Statistics, between 1978 and 2019, the number of inbound tourists in China increased nearly 140-fold. Consequently, China has ascended to become the world's fourth-largest inbound tourism destination, trailing only France, Spain, and the United States^[World Tourism Organization. (2023). Global and regional tourism performance [Database]. Madrid, Spain: World Tourism Organization.]. As the focal point of China, Beijing annually attracts over 60 million international tourists, solidifying its status as the country's premier destination.
 
-::: echarts
+::: echarts International tourism arrivals in China (Data from National Bureau of Statistics of China)
 
-```js
-const option = {
-  title: {
-    text: 'International tourism arrivals in China',
-    subtext: 'Data from National Bureau of Statistics of China',
-    left: 'right'
-  },
-  xAxis: {
-    name: 'year',
-    data: [
-      '1978',
-      '1979',
-      '1980',
-      '1981',
-      '1982',
-      '1983',
-      '1984',
-      '1985',
-      '1986',
-      '1987',
-      '1988',
-      '1989',
-      '1990',
-      '1991',
-      '1992',
-      '1993',
-      '1994',
-      '1995',
-      '1996',
-      '1997',
-      '1998',
-      '1999',
-      '2000',
-      '2001',
-      '2002',
-      '2003',
-      '2004',
-      '2005',
-      '2006',
-      '2007',
-      '2008',
-      '2009',
-      '2010',
-      '2011',
-      '2012',
-      '2013',
-      '2014',
-      '2015',
-      '2016',
-      '2017',
-      '2018',
-      '2019'
+```json
+{
+  "xAxis": {
+    "name": "year",
+    "data": [
+      "1978",
+      "1979",
+      "1980",
+      "1981",
+      "1982",
+      "1983",
+      "1984",
+      "1985",
+      "1986",
+      "1987",
+      "1988",
+      "1989",
+      "1990",
+      "1991",
+      "1992",
+      "1993",
+      "1994",
+      "1995",
+      "1996",
+      "1997",
+      "1998",
+      "1999",
+      "2000",
+      "2001",
+      "2002",
+      "2003",
+      "2004",
+      "2005",
+      "2006",
+      "2007",
+      "2008",
+      "2009",
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019"
     ]
   },
-  yAxis: {
-    name: 'number of arrivals\n(10 thousand)'
-  },
-  series: [
+  "yAxis": { "name": "number of arrivals\n(10 thousand)" },
+  "series": [
     {
-      name: 'number of arrivals (10 thousand)',
-      type: 'bar',
-      data: [
+      "name": "number of arrivals (10 thousand)",
+      "type": "bar",
+      "data": [
         22.96, 36.24, 52.91, 67.52, 76.45, 87.25, 113.43, 137.05, 148.23, 172.78, 184.22, 146.1,
         174.73, 271.01, 400.64, 465.59, 518.21, 588.67, 674.43, 742.8, 710.77, 843.23, 1016.04,
         1122.64, 1343.95, 1140.29, 1693.25, 2025.51, 2221.03, 2610.97, 2432.53, 2193.75, 2612.69,
@@ -155,7 +148,7 @@ The research objectives are twofold. Firstly, the study endeavors to identify la
 
 This study is completely meaningless to the adcamic circle.
 
-:::tip TO DO
+::: tip TO DO
 Make up some significance.
 :::
 
@@ -181,147 +174,135 @@ Some scholars have also raised concerns about **style and tone**. In the researc
 
 In this section, the focus shifts to the translation of multimedia, considering **typography** as an integral component. Typography, being more of a practical concern than a theoretical one, has received limited attention in academic literature. Notably, the field of web typography, guided by Google, the developer of the widely used Chrome browser, has provided normative guidelines for web typography. This paper will utilize Google's normative guides to analyze the typography employed in science museums in Beijing, excluding subjective informative guides. Further details will be presented in the methodology chapter.
 
-::: echarts
+::: echarts Browser Market Share Worldwide (2023) (Data from Statcounter Global Stats)
 
-```js
-const option = {
-  title: {
-    text: 'Browser Market Share Worldwide (2023)',
-    subtext: 'Data from Statcounter Global Stats',
-    left: 'right'
+``` json
+{
+  "xAxis": {
+    "data": ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
   },
-  xAxis: {
-    data: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
-  },
-  yAxis: {
-    axisLabel: {
-      formatter: '{value} %'
-    }
-  },
-  legend: {
-    data: ['Chrome', 'Safari', 'Edge', 'Firefox', 'Opera'],
-    top: 'bottom'
-  },
-  series: [
+  "yAxis": { "axisLabel": { "formatter": "{value} %" } },
+  "legend": { "data": ["Chrome", "Safari", "Edge", "Firefox", "Opera"], "top": "bottom" },
+  "series": [
     {
-      name: 'Chrome',
-      type: 'line',
-      data: [65.43, 65.76, 64.76, 63.45, 62.87, 62.58, 63.55, 63.56, 63.45, 63.17, 62.92, 64.7]
+      "name": "Chrome",
+      "type": "line",
+      "data": [65.43, 65.76, 64.76, 63.45, 62.87, 62.58, 63.55, 63.56, 63.45, 63.17, 62.92, 64.7]
     },
     {
-      name: 'Safari',
-      type: 'line',
-      data: [18.69, 18.84, 19.52, 20.48, 20.7, 20.47, 19.95, 19.84, 19.91, 19.9, 19.97, 18.59]
+      "name": "Safari",
+      "type": "line",
+      "data": [18.69, 18.84, 19.52, 20.48, 20.7, 20.47, 19.95, 19.84, 19.91, 19.9, 19.97, 18.59]
     },
     {
-      name: 'Edge',
-      type: 'line',
-      data: [4.46, 4.28, 4.64, 4.97, 5.32, 5.27, 5.14, 5.43, 5.29, 5.46, 5.5, 4.96]
+      "name": "Edge",
+      "type": "line",
+      "data": [4.46, 4.28, 4.64, 4.97, 5.32, 5.27, 5.14, 5.43, 5.29, 5.46, 5.5, 4.96]
     },
     {
-      name: 'Firefox',
-      type: 'line',
-      data: [3, 2.93, 2.93, 2.76, 2.77, 2.81, 2.79, 2.95, 3.03, 3.02, 3.24, 3.35]
+      "name": "Firefox",
+      "type": "line",
+      "data": [3, 2.93, 2.93, 2.76, 2.77, 2.81, 2.79, 2.95, 3.03, 3.02, 3.24, 3.35]
     },
     {
-      name: 'Opera',
-      type: 'line',
-      data: [2.4, 2.26, 2.34, 2.41, 2.82, 3.21, 2.98, 2.74, 2.91, 3.31, 3.15, 2.86]
+      "name": "Opera",
+      "type": "line",
+      "data": [2.4, 2.26, 2.34, 2.41, 2.82, 3.21, 2.98, 2.74, 2.91, 3.31, 3.15, 2.86]
     },
     {
-      name: 'Samsung Internet',
-      type: 'line',
-      data: [2.61, 2.59, 2.57, 2.59, 2.5, 2.39, 2.38, 2.32, 2.31, 2.33, 2.45, 2.6]
+      "name": "Samsung Internet",
+      "type": "line",
+      "data": [2.61, 2.59, 2.57, 2.59, 2.5, 2.39, 2.38, 2.32, 2.31, 2.33, 2.45, 2.6]
     },
     {
-      name: 'UC Browser',
-      type: 'line',
-      data: [0.88, 0.88, 0.89, 0.93, 0.79, 1.02, 1.01, 0.98, 0.87, 0.78, 0.79, 0.87]
+      "name": "UC Browser",
+      "type": "line",
+      "data": [0.88, 0.88, 0.89, 0.93, 0.79, 1.02, 1.01, 0.98, 0.87, 0.78, 0.79, 0.87]
     },
     {
-      name: 'Android',
-      type: 'line',
-      data: [0.77, 0.74, 0.69, 0.74, 0.63, 0.62, 0.6, 0.54, 0.56, 0.5, 0.44, 0.42]
+      "name": "Android",
+      "type": "line",
+      "data": [0.77, 0.74, 0.69, 0.74, 0.63, 0.62, 0.6, 0.54, 0.56, 0.5, 0.44, 0.42]
     },
     {
-      name: 'Yandex Browser',
-      type: 'line',
-      data: [0.23, 0.23, 0.23, 0.27, 0.24, 0.22, 0.27, 0.28, 0.3, 0.28, 0.3, 0.32]
+      "name": "Yandex Browser",
+      "type": "line",
+      "data": [0.23, 0.23, 0.23, 0.27, 0.24, 0.22, 0.27, 0.28, 0.3, 0.28, 0.3, 0.32]
     },
     {
-      name: '360 Safe Browser',
-      type: 'line',
-      data: [0.36, 0.32, 0.23, 0.2, 0.21, 0.25, 0.28, 0.3, 0.28, 0.26, 0.26, 0.28]
+      "name": "360 Safe Browser",
+      "type": "line",
+      "data": [0.36, 0.32, 0.23, 0.2, 0.21, 0.25, 0.28, 0.3, 0.28, 0.26, 0.26, 0.28]
     },
     {
-      name: 'QQ Browser',
-      type: 'line',
-      data: [0.22, 0.2, 0.2, 0.21, 0.2, 0.19, 0.18, 0.17, 0.17, 0.16, 0.16, 0.18]
+      "name": "QQ Browser",
+      "type": "line",
+      "data": [0.22, 0.2, 0.2, 0.21, 0.2, 0.19, 0.18, 0.17, 0.17, 0.16, 0.16, 0.18]
     },
     {
-      name: 'IE',
-      type: 'line',
-      data: [0.25, 0.25, 0.26, 0.24, 0.21, 0.22, 0.14, 0.14, 0.12, 0.11, 0.13, 0.14]
+      "name": "IE",
+      "type": "line",
+      "data": [0.25, 0.25, 0.26, 0.24, 0.21, 0.22, 0.14, 0.14, 0.12, 0.11, 0.13, 0.14]
     },
     {
-      name: 'Coc Coc',
-      type: 'line',
-      data: [0.12, 0.16, 0.19, 0.2, 0.2, 0.22, 0.1, 0.09, 0.1, 0.1, 0.08, 0.08]
+      "name": "Coc Coc",
+      "type": "line",
+      "data": [0.12, 0.16, 0.19, 0.2, 0.2, 0.22, 0.1, 0.09, 0.1, 0.1, 0.08, 0.08]
     },
     {
-      name: 'Whale Browser',
-      type: 'line',
-      data: [0.11, 0.11, 0.11, 0.12, 0.11, 0.09, 0.08, 0.05, 0.06, 0.06, 0.06, 0.08]
+      "name": "Whale Browser",
+      "type": "line",
+      "data": [0.11, 0.11, 0.11, 0.12, 0.11, 0.09, 0.08, 0.05, 0.06, 0.06, 0.06, 0.08]
     },
     {
-      name: 'KaiOS',
-      type: 'line',
-      data: [0.06, 0.08, 0.07, 0.07, 0.1, 0.1, 0.06, 0.06, 0.06, 0.08, 0.07, 0.04]
+      "name": "KaiOS",
+      "type": "line",
+      "data": [0.06, 0.08, 0.07, 0.07, 0.1, 0.1, 0.06, 0.06, 0.06, 0.08, 0.07, 0.04]
     },
     {
-      name: 'Mozilla',
-      type: 'line',
-      data: [0.07, 0.07, 0.07, 0.07, 0.06, 0.02, 0.03, 0.03, 0.06, 0.03, 0.02, 0.02]
+      "name": "Mozilla",
+      "type": "line",
+      "data": [0.07, 0.07, 0.07, 0.07, 0.06, 0.02, 0.03, 0.03, 0.06, 0.03, 0.02, 0.02]
     },
     {
-      name: 'Puffin',
-      type: 'line',
-      data: [0.08, 0.08, 0.04, 0.05, 0.04, 0.04, 0.04, 0.05, 0.02, 0.03, 0.03, 0.04]
+      "name": "Puffin",
+      "type": "line",
+      "data": [0.08, 0.08, 0.04, 0.05, 0.04, 0.04, 0.04, 0.05, 0.02, 0.03, 0.03, 0.04]
     },
     {
-      name: 'Edge Legacy',
-      type: 'line',
-      data: [0.05, 0.04, 0.05, 0.05, 0.04, 0.02, 0.02, 0.03, 0.05, 0.01, 0.01, 0.02]
+      "name": "Edge Legacy",
+      "type": "line",
+      "data": [0.05, 0.04, 0.05, 0.05, 0.04, 0.02, 0.02, 0.03, 0.05, 0.01, 0.01, 0.02]
     },
     {
-      name: 'Instabridge',
-      type: 'line',
-      data: [0.07, 0.06, 0.03, 0.04, 0.06, 0.04, 0.04, 0.04, 0.03, 0.01, 0.01, 0.03]
+      "name": "Instabridge",
+      "type": "line",
+      "data": [0.07, 0.06, 0.03, 0.04, 0.06, 0.04, 0.04, 0.04, 0.03, 0.01, 0.01, 0.03]
     },
     {
-      name: 'Sogou Explorer',
-      type: 'line',
-      data: [0.08, 0.02, 0.05, 0.02, 0.02, 0.03, 0.02, 0.03, 0.05, 0.01, 0.01, 0.01]
+      "name": "Sogou Explorer",
+      "type": "line",
+      "data": [0.08, 0.02, 0.05, 0.02, 0.02, 0.03, 0.02, 0.03, 0.05, 0.01, 0.01, 0.01]
     },
     {
-      name: 'Sony PS4',
-      type: 'line',
-      data: [0.05, 0.03, 0.03, 0.01, 0.01, 0.02, 0.04, 0.04, 0.03, 0.01, 0.01, 0.01]
+      "name": "Sony PS4",
+      "type": "line",
+      "data": [0.05, 0.03, 0.03, 0.01, 0.01, 0.02, 0.04, 0.04, 0.03, 0.01, 0.01, 0.01]
     },
     {
-      name: 'Unknown',
-      type: 'line',
-      data: [0.01, 0.02, 0.01, 0.01, 0.01, 0.01, 0.02, 0.01, 0.01, 0.01, 0.01, 0.01]
+      "name": "Unknown",
+      "type": "line",
+      "data": [0.01, 0.02, 0.01, 0.01, 0.01, 0.01, 0.02, 0.01, 0.01, 0.01, 0.01, 0.01]
     },
     {
-      name: 'Chromium',
-      type: 'line',
-      data: [0.01, 0.02, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01]
+      "name": "Chromium",
+      "type": "line",
+      "data": [0.01, 0.02, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01]
     },
     {
-      name: 'Other',
-      type: 'line',
-      data: [0.05, 0.05, 0.07, 0.07, 0.05, 0.06, 0.05, 0.06, 0.12, 0.08, 0.08, 0.08]
+      "name": "Other",
+      "type": "line",
+      "data": [0.05, 0.05, 0.07, 0.07, 0.05, 0.06, 0.05, 0.06, 0.12, 0.08, 0.08, 0.08]
     }
   ]
 }
@@ -429,7 +410,7 @@ TBD
 
 - Br En mix Am En
 - same zh term share diff en term
-- book name => italic or capitalised or quotation
+- book name => italic or capitalized or quotation
 
 ## Style and Tone
 
