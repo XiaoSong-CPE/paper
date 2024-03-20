@@ -1,37 +1,13 @@
-<div class="col-span">
+<div class="col-span page-break">
 
 [[toc]]
 
 </div>
 
----
-
 <header class="col-span">
   <h1 class="title counter-skip">English Quality Assessment in Science Museum</h1>
   <h2 class="subtitle counter-skip">A Case Study at China Science and Technology Museum</h2>
-  <div class="authors col-2">
-    <div class="author">
-      <div>Authors Name/s per 1st Affiliation (<em>Author</em>)</div>
-      <div>line 1 (of <em>Affiliation</em>): dept. name of organization</div>
-      <div>line 2: name of organization, acronyms acceptable</div>
-      <div>line 3: City, Country</div>
-      <div>line 4: e-mail address if desired</div>
-    </div>
-    <div class="author">
-      <div>Authors Name/s per 2nd Affiliation (<em>Author</em>)</div>
-      <div>line 1 (of <em>Affiliation</em>): dept. name of organization</div>
-      <div>line 2: name of organization, acronyms acceptable</div>
-      <div>line 3: City, Country</div>
-      <div>line 4: e-mail address if desired</div>
-    </div>
-  </div>
 </header>
-
-<div class="abstract">
-  <p><em>Abstract</em>—This electronic document is a <q>live</q> template and already defines the components of your paper [title, text, heads, etc.] in its style sheet. <em style="color: red;">*CRITICAL: Do Not Use Symbols, Special Characters, or Math in Paper Title or Abstract.</em> (<em style="font-weight: normal;">Abstract</em>)</p>
-  <p><em>Keywords</em>—<em>component; formatting; style; styling; insert (<span style="font-weight: normal;">key words</span>)</em>
-<span class="footnote">Identify applicable sponsor/s here. If no sponsors, delete this text box (<em>sponsors</em>).</span></p>
-</div>
 
 # Introduction
 
@@ -146,9 +122,9 @@ The research objectives are twofold. Firstly, the study endeavors to identify la
 
 ## Research Significance
 
-This study is completely meaningless to the adcamic circle.
+This study is completely meaningless to the academic circle.
 
-::: tip TO DO
+::: todo
 Make up some significance.
 :::
 
@@ -176,7 +152,7 @@ In this section, the focus shifts to the translation of multimedia, considering 
 
 ::: echarts Browser Market Share Worldwide (2023) (Data from Statcounter Global Stats)
 
-``` json
+```json
 {
   "xAxis": {
     "data": ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
@@ -398,35 +374,63 @@ TBD
 
 <section>
 
-TBD
+- TBD
 
-## Writing English
+## Typo
 
-TBD
+- Misspelling
+  - "northem" for "northern" (perhaps caused by OCR)
+  - "Provinse" for "Province"
+- Capitalization
+  - "china" for "China"
+- Punctuation
+  - Lack of full stop at the end of a sentence
+- Other
+  - Lack of explanation for abbreviations
+  - "he/she" for "they" and its variants
+
+::: todo
+
+- Whether add a space before the left bracket?
+- Whether add a space between the number and unit?
+
+:::
 
 ## Consistency
 
-TBD
-
 - Br En mix Am En
 - same zh term share diff en term
-- book name => italic or capitalized or quotation
+  - 星图
+  - 云锦
+- book name
+  - italic
+  - capitalized
+  - quotation
+- title
+  - Ersten Buchstaben im Satz großschreiben.
+  - GROSSBUCHSTABEN
+  - Ersten Buchstaben Im Wort Großschreiben
+- Numeric list
+  - 1. 2. 3.
+  - (none)
 
 ## Style and Tone
 
-TBD
+- TBD
 
 ## Typography
 
-TBD
+- Using Chinese font for English text.
 
 ## Multimodal
 
-TBD
+- No translation.
 
 ## Interactivity
 
-TBD
+- Only guides are translated.
+- Only actions are translated.
+- No translation.
 
 </section>
 

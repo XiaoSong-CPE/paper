@@ -55,7 +55,7 @@ let list = [
   },
   {
     text: '图片整理和文字转写',
-    progress: 0.02
+    progress: 0.055
   },
   {
     text: '初步翻译质量评估与Demo撰写',

@@ -15,13 +15,23 @@ import '@/assets/pubcss-ieee.css'
 let md = markdownIt({
   html: true,
   linkify: true,
-  typographer: true
+  typographer: true,
 })
   .use(markdownItAnchor)
   .use(markdownItTOC, {
     includeLevel: [1, 2, 3, 4]
   })
   .use(markdownItFootnote)
+  .use(markdownItContainer, 'todo', {
+    validate: (params: any) => params.trim().match(/^todo$/),
+    render: (tokens: any, idx: any) => {
+      if (tokens[idx].nesting === 1) {
+        return `<div class="to-do"><div class="to-do-title">TO DO</div>\n`
+      } else {
+        return '</div>'
+      }
+    }
+  })
   .use(markdownItContainer, 'echarts', {
     validate: (params: any) => params.trim().match(/^echarts\s+(.*)$/),
     render: (tokens: any, idx: any) => {
@@ -49,6 +59,15 @@ md.renderer.rules.footnote_open = (tokens, idx, options, env, slf) => {
   return `<cite id="fn${id}">`
 }
 md.renderer.rules.footnote_close = () => '</cite>'
+md.renderer.rules.footnote_ref = (tokens, idx, options, env, slf) => {
+  // @ts-ignore
+  const id = slf.rules.footnote_anchor_name(tokens, idx, options, env, slf)
+  let refid = id
+
+  if (tokens[idx].meta.subId > 0) refid += `:${tokens[idx].meta.subId}`
+
+  return `<a href="#fn${id}" id="fnref${refid}" class="footnote-ref">${id}</a>`
+}
 
 let draft = md.render(draftString)
 // console.log(draft)
@@ -94,5 +113,27 @@ body {
 }
 figure pre {
   display: none;
+}
+.to-do {
+  background-color: #f8d7da;
+  border-color: #f5c6cb;
+  color: #721c24;
+  padding: 0.75rem 1.25rem;
+  margin: 1rem 0;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+}
+.to-do-title {
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+ul li {
+  list-style: disc;
+}
+/* for print */
+@media print {
+  .page-break {
+    page-break-after: always;
+  }
 }
 </style>

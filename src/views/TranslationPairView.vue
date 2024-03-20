@@ -7,7 +7,9 @@ import { h } from 'vue'
 import { parse } from 'csv-parse/browser/esm/sync'
 import 'github-markdown-css/github-markdown.css'
 
-let md = new MarkdownIt().use(markdownItKatex)
+let md = new MarkdownIt({
+  breaks: true
+}).use(markdownItKatex)
 
 type RawData = {
   Chinese: string
@@ -52,6 +54,7 @@ let columns: DataTableColumns<RowData> = [
     key: 'Chinese',
     title: 'Chinese',
     className: 'mdui-prose',
+    sorter: 'default',
     render: (rowData) => {
       return h('div', { innerHTML: md.render(rowData.Chinese) })
     }
@@ -60,6 +63,7 @@ let columns: DataTableColumns<RowData> = [
     key: 'English',
     title: 'English',
     className: 'mdui-prose',
+    sorter: 'default',
     render: (rowData) => {
       return h('div', { innerHTML: md.render(rowData.English) })
     }
@@ -71,7 +75,6 @@ let columns: DataTableColumns<RowData> = [
   <n-data-table
     :data="rowData"
     :columns="columns"
-    virtual-scroll
     :single-line="false"
     max-height="calc(100vh - 1rem - 20px - 75px - 42px)"
     size="small"
