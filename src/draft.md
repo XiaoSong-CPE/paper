@@ -1,8 +1,8 @@
-<div class="col-span page-break">
+<!-- <div class="col-span page-break">
 
 [[toc]]
 
-</div>
+</div> -->
 
 <header class="col-span">
   <h1 class="title counter-skip">English Quality Assessment in Science Museum</h1>
@@ -13,7 +13,7 @@
 
 <section>
 
-Derived from the progress of multimedia interactive entertainment software (MIES), the concept of internationalization is introduced to the field of translation. Internationalization, a superset of translation, encompasses various elements, including translation itself and aspects such as multimedia and interactivity. This broader perspective significantly influences the development of translation studies. This paper aims to apply certain MIES internationalization theories and practices to a domain beyond MIES, specifically addressing translation or internationalization issues within science museums in Beijing. From this novel viewpoint, this identify errors in the English internationalization in science museums in Beijing, ranging from traditional concerns like incorrect spelling, punctuation, and grammar to MIES-specific problems such as inappropriate typography and the absence of multimedia translation.
+Derived from the progress of multimedia interactive entertainment software (MIES), the concept of internationalization is introduced to the field of translation. Internationalization, a superset of translation, encompasses various elements, including translation itself and aspects such as multimedia and interactivity. This broader perspective significantly influences the development of translation studies. This paper aims to apply certain MIES internationalization theories and practices to a domain beyond MIES, specifically addressing translation or internationalization issues within science museums in Beijing. From this novel viewpoint, this identifies errors in the English internationalization in science museums in Beijing, ranging from traditional concerns like incorrect spelling, punctuation, and grammar to MIES-specific problems such as inappropriate typography and the absence of multimedia translation.
 
 ## Research Background
 
@@ -21,17 +21,17 @@ This study is contextualized by two pivotal factors: the rapidly expanding MIES 
 
 ### MIES Internationalization
 
-Historically, Translation Studies have primarily focused on textual analysis, neglecting the dynamic nature of intercultural communication. With the rise of digital technology, translation has evolved to encompass multimedia and interactive entertainment products, particularly MIES. As has been previously discussed by Bernal-Merino^[MERINO M B. On the Translation of Video Games[J]. The Journal of Specialised Translation, 2006. ], MIES combines in one product characteristics of other arts and disciplines such as film, literature, 3-D design and computer programming and provides multimedia and unparalleled interactivity, challenging traditional translation paradigms.
+Historically, Translation Studies have primarily focused on textual analysis, neglecting the dynamic nature of intercultural communication. With the rise of digital technology, translation has evolved to encompass multimedia and interactive entertainment products, particularly MIES. As has been previously discussed by Bernal-Merino^[MERINO M B. On the Translation of Video Games[J]. The Journal of Specialised Translation, 2006. ], MIES combines in one product characteristics of other arts and disciplines such as film, literature, 3-D design, and computer programming and provides multimedia and unparalleled interactivity, challenging traditional translation paradigms.
 
 Translation, traditionally concerned with words, now extends beyond mere linguistic representation. The global phenomenon of MIES, exemplified by titles like _Dying Light 2 Stay Human_, underscores how interactivity can shape the narrative, adapting to public reactions. The internationalization process, covering globalization, internationalization, localization, and translation (GILT), is pivotal for the success of MIES in international markets.
 
-Interactivity, not confined to digital media, has existed in various forms of entertainment like drama and literature. For instance, Julio Cortázar's novel _Rayuela_ challenges conventional narrative structures, and game-books like the _Fighting Fantasy_ series offer readers choices impacting the story. MIES elevate interactivity, enabling users to directly control their avatars and the narrative.
+Interactivity, not confined to digital media, has existed in various forms of entertainment like drama and literature. For instance, Julio Cortázar's novel _Rayuela_ challenges conventional narrative structures, and game books like the _Fighting Fantasy_ series offer readers choices impacting the story. MIES elevate interactivity, enabling users to directly control their avatars and the narrative.
 
 Language plays a crucial role in MIES interactivity, involving users in dialogues and providing feedback through multimedia like text, audio, or video. Translation must capture the nuances of these exchanges, ensuring the immersive experience of MIES transcends language barriers. Achieving this requires linguistic flexibility, adherence to syntactical and morphological rules, and cultural sensitivity to maintain user immersion.
 
 Internationalization surpasses mere translation; it tailors a MIES to the cultural, legal, and technical needs of its target audience. Playability, the ease and enjoyment of using a MIES, directly hinges on the quality of internationalization. Errors in gender, number agreement, or mode of address can compromise user experience. Meticulous internationalization is essential to ensure the coherence and engagement of the MIES's narrative and mechanics in all languages.
 
-MIES mark a new frontier in translation studies, where interactivity and internationalization assume paramount importance. Preserving the interactive essence of MIES while adapting them to diverse linguistic and cultural contexts poses a challenge. As MIES continue to evolve, the field of translation must also evolve, embracing the complexities of intercultural communication and the creative possibilities of interactive storytelling.
+MIES marks a new frontier in translation studies, where interactivity and internationalization assume paramount importance. Preserving the interactive essence of MIES while adapting them to diverse linguistic and cultural contexts poses a challenge. As MIES continues to evolve, the field of translation must also evolve, embracing the complexities of intercultural communication and the creative possibilities of interactive storytelling.
 
 ### Science Museums in Beijing
 
@@ -138,11 +138,11 @@ As highlighted earlier, this study delves into three dimensions of international
 
 ## Translation of Text
 
-Among the three dimensions under consideration, text translation stands out as the most extensively studied field due to the historical prominence of text as a medium for information exchange. Within the context of internationalization in science museums, a seminal theory is the linguistic landscape introduced by Landry and Bourhis^[LANDRY R, BOURHIS R Y. Linguistic Landscape and ethnolinguistic vitality[J]. Journal of Language and Social Psychology, 1997, 16(1): 23–49.]. This theory defines linguistic landscape as the language present on public signs, encompassing road signs, billboards, street names, place names, shop signs, and public building signs within a defined territory, region, or city group. Widely cited, this definition is considered a classic in the field, with other scholars emphasizing the public space as the foundational backdrop of linguistic landscape. For example, Ben-Rafael^[BEN-RAFAEL E. A sociological approach to the study of Linguistic Landscapes[J]. Linguistic Landscape, 2008: 48–62.] employs the concept of the "public sphere" proposed by German sociologist Habermas to describe the public spaces where signs are present.
+Among the three dimensions under consideration, text translation stands out as the most extensively studied field due to the historical prominence of text as a medium for information exchange. Within the context of internationalization in science museums, a seminal theory is a linguistic landscape introduced by Landry and Bourhis^[LANDRY R, BOURHIS R Y. Linguistic Landscape and ethnolinguistic vitality[J]. Journal of Language and Social Psychology, 1997, 16(1): 23–49.]. This theory defines linguistic landscape as the language present on public signs, encompassing road signs, billboards, street names, place names, shop signs, and public building signs within a defined territory, region, or city group. Widely cited, this definition is considered a classic in the field, with other scholars emphasizing the public space as the foundational backdrop of the linguistic landscape. For example, Ben-Rafael^[BEN-RAFAEL E. A sociological approach to the study of Linguistic Landscapes[J]. Linguistic Landscape, 2008: 48–62.] employs the concept of the "public sphere" proposed by German sociologist Habermas to describe the public spaces where signs are present.
 
-In the domain of analyzing errors in Chinese-English translation using linguistic landscape theory, scholars have frequently highlighted the issue of **consistency**. For instance, Tian Feiyang and Zhang Weijia^[田飞洋, 张维佳. 全球化社会语言学:语言景观研究的新理论——以北京市学院路双语公示语为例[J]. 语言文字应用, 2014(02):38-45. DOI:10.16499/j.cnki.1003-5397.2014.02.005.] identified discrepancies such as "QINGHUA East Rd" and "QINGHUA DONGLU" being two English names for the same road, potentially causing confusion for foreigners. Given the widespread use of Pinyin in China, this issue is prevalent. Another example comes from Qiu Ying^[邱莹. 上饶市语言景观调查研究[J]. 语言文字应用, 2016(03):40-49. DOI:10.16499/j.cnki.1003-5397.2016.03.005.], who found common mix-ups like "LU" and "RD," "DADAO" and "AVENUE," and "SHAN" and "MT" in Shangrao city. This paper will similarly analyze consistency in the internationalization of science museums in Beijing, given its objectivity and significance.
+In the domain of analyzing errors in Chinese-English translation using linguistic landscape theory, scholars have frequently highlighted the issue of **consistency**. For instance, Tian Feiyang and Zhang Weijia^[田飞洋, 张维佳. 全球化社会语言学:语言景观研究的新理论——以北京市学院路双语公示语为例[J]. 语言文字应用, 2014(02):38-45. DOI:10.16499/j.cnki.1003-5397.2014.02.005.] identified discrepancies such as "QINGHUA East Rd" and "QINGHUA DONGLU" being two English names for the same road, potentially confusing for foreigners. Given the widespread use of Pinyin in China, this issue is prevalent. Another example comes from Qiu Ying^[邱莹. 上饶市语言景观调查研究[J]. 语言文字应用, 2016(03):40-49. DOI:10.16499/j.cnki.1003-5397.2016.03.005.], who found common mix-ups like "LU" and "RD," "DADAO" and "AVENUE," and "SHAN" and "MT" in Shangrao city. This paper will similarly analyze consistency in the internationalization of science museums in Beijing, given its objectivity and significance.
 
-Another frequently cited concern is the proficiency in **writing English**. Sun Li's research^[孙利. 语言景观翻译的现状及其交际翻译策略[J]. 江西师范大学学报(哲学社会科学版), 2009, 42(06):153-156.] identified errors ranging from incorrect spelling, such as "China Psot" instead of "China Post," to incorrect meaning, like interpreting "watering place" as "drinking water," and grammar mistakes, for instance, "PLEASE WELL KEPT YOUR PASSWORD" instead of "Please keep your PIN number safe." A common shortcoming in papers addressing English writing errors is the absence of a standard. While it is widely known that "Psot" is misspelled in English-speaking regions, this may not suffice for more complex situations. This paper will scrutinize English writing in the internationalization of science museums in Beijing, providing standards and rationale for their selection. Further details can be found in the methodology chapter.
+Another frequently cited concern is proficiency in **writing** English**. Sun Li's research^[孙利. 语言景观翻译的现状及其交际翻译策略[J]. 江西师范大学学报(哲学社会科学版), 2009, 42(06):153-156.] identified errors ranging from incorrect spelling, such as "China Psot" instead of "China Post," to incorrect meaning, like interpreting "watering place" as "drinking water," and grammar mistakes, for instance, "PLEASE WELL KEPT YOUR PASSWORD" instead of "Please keep your PIN number safe." A common shortcoming in papers addressing English writing errors is the absence of a standard. While it is widely known that "Psot" is misspelled in English-speaking regions, this may not suffice for more complex situations. This paper will scrutinize English writing in the internationalization of science museums in Beijing, providing standards and rationale for their selection. Further details can be found in the methodology chapter.
 
 Some scholars have also raised concerns about **style and tone**. In the research conducted by Ding Rongrong^[丁容容. 全球化与旅游景点公共标识语翻译研究[J]. 黎明职业大学学报, 2010(04):82-86. DOI:10.13446/j.cnki.jlvu.000907.], concerns were raised about the use of terms such as "old," "disabled," and "pregnant" in public spaces, deeming them sensitive and inappropriate. However, it is important to note that this perspective may lack objectivity. For instance, Ding Rongrong proposes replacing the directive "SUNDRIES PROHIBIT" with a milder expression like "PLEASE DON'T LITTER," advocating for a more considerate tone. Nevertheless, this argument falls short as it fails to offer a systematic method for determining which words, under specific circumstances, might be considered too harsh or inappropriate. In this study, open-source language models are employed to assess the sentiment and formality of text within science museums in Beijing. This evaluation aims to determine the appropriateness of language use while maintaining objectivity, as detailed in the methodology chapter.
 
@@ -288,21 +288,21 @@ In this section, the focus shifts to the translation of multimedia, considering 
 
 In traditional translation studies, multimedia translation was commonly referred to as **multimodal** translation. Addressing this, Kress^[KRESS G R, LEEUWEN T V. Reading images: The grammar of visual design[M]. 3rd ed. London: Routledge, Taylor & Francis Group, 2021.] argued that multimodality encompasses all channels and media involved in the communicative process, including resource sign systems such as colors, images, and music, in addition to basic linguistic symbols. Ketola^[KETOLA A. Towards a multimodally oriented theory of translation: A cognitive framework for the translation of illustrated technical texts[J]. Translation Studies, 2015, 9(1): 67–81.] highlighted the intertwining of different modalities in multimodal discourse, working collaboratively to construct meaning.
 
-The translation of video subtitles represents one of the extensively studied aspects of multimodal translation. Researchers in this domain commonly agree that multimodal elements like images, audios, and videos impact the source text, consequently influencing the translation process. For instance, Yi Jing^[JING Y. Independent versus latched interjections: Co-textual differences and their expendability in film subtitling[J]. Lingua, 2021, 254: 103053.] explored the translation of video subtitles, focusing on the nuanced decision-making process regarding the inclusion of self-expressive interjections. The research revealed that the determination to maintain such interjections in subtitle translation relied not solely on textual factors, considering the linguistic level of the interjection in a sentence. It also took into account audio aspects, with no necessity for interjection translation if it merely described the sound's phonetics. Additionally, the study considered visual elements, where concurrent facial expressions and bodily gestures might convey similar or commensurate meanings.
+The translation of video subtitles represents one of the extensively studied aspects of multimodal translation. Researchers in this domain commonly agree that multimodal elements like images, audio, and videos impact the source text, consequently influencing the translation process. For instance, Yi Jing^[JING Y. Independent versus latched interjections: Co-textual differences and their expendability in film subtitling[J]. Lingua, 2021, 254: 103053.] explored the translation of video subtitles, focusing on the nuanced decision-making process regarding the inclusion of self-expressive interjections. The research revealed that the determination to maintain such interjections in subtitle translation relied not solely on textual factors, considering the linguistic level of the interjection in a sentence. It also took into account audio aspects, with no necessity for interjection translation if it merely described the sound's phonetics. Additionally, the study considered visual elements, where concurrent facial expressions and bodily gestures might convey similar or commensurate meanings.
 
 This paper will apply a similar conceptual framework to assess the quality of multimodal translation in science museums in Beijing. To ensure objectivity,
 
-:::tip TO DO
+::: todo
 Develop or find an objective method for evaluating the quality of multimodal translation.
 :::
 
 ## Translation of Interactivity
 
-Although the term "interactivity" might appear to be a recent concept primarily associated with computer technology, its roots are neither novel nor confined solely to digital media. This term has previously been employed to convey that recipients wield the capability to shape their encounter with a specific product or service and its ultimate outcome.
+Although the term "interactivity" might appear to be a recent concept primarily associated with computer technology, its roots are neither novel nor confined solely to digital media. This term has previously been employed to convey that recipients wield the capability to shape their encounter with a specific product or service and its outcome.
 
-The disintegration of interactive text stands as a pivotal concern in the localization of MIES and the internationalization in science museums. As noted by Pym^[PYM A. What technology does to translating[J]. The International Journal of Translation and Interpreting Research, 2011, 3: 1–9.], technology disrupts linearity, a disruption that becomes particularly conspicuous in our interactions with websites. This disruption shifts the emphasis away from linearity and towards the technological facets of communication, occasionally obscuring the human element intrinsic to the process of translation.
+The disintegration of interactive text stands as a pivotal concern in the localization of MIES and the internationalization of science museums. As noted by Pym^[PYM A. What technology does to translating[J]. The International Journal of Translation and Interpreting Research, 2011, 3: 1–9.], technology disrupts linearity, a disruption that becomes particularly conspicuous in our interactions with websites. This disruption shifts the emphasis away from linearity and towards the technological facets of communication, occasionally obscuring the human element intrinsic to the process of translation.
 
-:::tip TO DO
+::: todo
 Develop or find an objective method for evaluating the quality of interactivity translation.
 :::
 
@@ -318,13 +318,29 @@ This chapter comprises two distinct sections: data collection and internationali
 
 Go to the target science museums in Beijing in person and collect the data by taking photos.
 
+::: todo
+
 TBD
 
-## Internationalization Analysis
+:::
 
-This study has selected a set of standard for analyzing the quality of internationalization in science museums in Beijing. An evident shortcoming of this analytical approach is that the quality of the selected standards will undoubtedly impact the evaluation results. In this specific context, standards recognized by China's authorities are deemed as the "truth," while others may not be as fortunate. Despite this notable limitation, standards also confer benefits, specifically objectivity. In the realm of studies on machine translation, for instance, the customary assessment of translation quality involves comparing machine-translated text to human-translated text, serving as the standard. While the latter may not always be the optimal benchmark, leading to less accurate assessment results, this standardized method ensures justice. If one object receives an inflated score, others under the same circumstances are similarly affected. Taking this into consideration, this paper adopts a standardized approach to conduct the assessment of internationalization quality, aiming to ensure objectivity.
+## Methods of Quality Assessment
 
-### Writing English
+This study has selected a set of standards for analyzing the quality of internationalization in science museums in Beijing. An evident shortcoming of this analytical approach is that the quality of the selected standards will undoubtedly impact the evaluation results. In this specific context, standards recognized by China's authorities are deemed as the "truth," while others may not be as fortunate. Despite this notable limitation, standards also confer benefits, specifically objectivity. In the realm of studies on machine translation, for instance, the customary assessment of translation quality involves comparing machine-translated text to human-translated text, serving as the standard. While the latter may not always be the optimal benchmark, leading to less accurate assessment results, this standardized method ensures justice. If one object receives an inflated score, others under the same circumstances are similarly affected. Taking this into consideration, this paper adopts a standardized approach to conduct the assessment of internationalization quality, aiming to ensure objectivity.
+
+</section>
+
+# Quality Assessment Results
+
+<section>
+
+::: todo
+
+TBD
+
+:::
+
+## Typography
 
 Rules governing spelling, hyphenation, capitalization, word breaks, emphasis, punctuation, and other aspects are ubiquitous. The pivotal question revolves around determining the most widely acknowledged standard, given the potential conflicts inherent in various rule sources.
 
@@ -338,46 +354,6 @@ In contrast to German, English orthographic reforms lack systematicity or widesp
 - The guide is a freely accessible open-source document.
 - The guide references various other acknowledged standards, such as the _New Oxford Dictionary for Writers and Editors_, as supplementary resources.
 
-### Consistency
-
-Check if the same word is translated differently in different places.
-
-TBD
-
-### Style and Tone
-
-Use large language models to evaluate the sentiment^[CAMACHO-COLLADOS J, REZAEE K, RIAHI T, 等. TWEETNLP: Cutting-edge natural language processing for social media[J]. Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing: System Demonstrations, 2022. ]^[LOUREIRO D, BARBIERI F, NEVES L, 等. TimeLMs: Diachronic language models from Twitter[J]. Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics: System Demonstrations, 2022. ] and formality^[BABAKOV N, DALE D, GUSEV I, 等. Don’t lose the message while paraphrasing: A study on content preserving style transfer[J]. Natural Language Processing and Information Systems, 2023: 47–61. ] of the text.
-
-TBD
-
-### Typography
-
-Utilize Google’s normative guides to analyze the typography employed in science museums in Beijing, excluding subjective informative guides.
-
-TBD
-
-### Multimodal
-
-Check if images, audios, videos and so on are translated.
-
-TBD
-
-### Interactivity
-
-Check if all interactive progress are translated.
-
-TBD
-
-</section>
-
-# Results and Discussion
-
-<section>
-
-- TBD
-
-## Typo
-
 - Misspelling
   - "northem" for "northern" (perhaps caused by OCR)
   - "Provinse" for "Province"
@@ -388,6 +364,7 @@ TBD
 - Other
   - Lack of explanation for abbreviations
   - "he/she" for "they" and its variants
+  - Using Chinese font for English text.
 
 ::: todo
 
@@ -416,11 +393,7 @@ TBD
 
 ## Style and Tone
 
-- TBD
-
-## Typography
-
-- Using Chinese font for English text.
+Use large language models to evaluate the sentiment^[CAMACHO-COLLADOS J, REZAEE K, RIAHI T, 等. TWEETNLP: Cutting-edge natural language processing for social media[J]. Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing: System Demonstrations, 2022. ]^[LOUREIRO D, BARBIERI F, NEVES L, 等. TimeLMs: Diachronic language models from Twitter[J]. Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics: System Demonstrations, 2022. ] and formality^[BABAKOV N, DALE D, GUSEV I, 等. Don’t lose the message while paraphrasing: A study on content preserving style transfer[J]. Natural Language Processing and Information Systems, 2023: 47–61. ] of the text.
 
 ## Multimodal
 
@@ -434,10 +407,26 @@ TBD
 
 </section>
 
+# Discussion and Suggestions
+
+<section>
+
+::: todo
+
+TBD
+
+:::
+
+</section>
+
 # Conclusion
 
 <section>
 
+::: todo
+
 TBD
+
+:::
 
 </section>
