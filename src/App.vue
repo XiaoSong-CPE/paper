@@ -2,7 +2,7 @@
 import { NConfigProvider, zhCN, dateZhCN, NCard, NIcon, NButton } from 'naive-ui'
 import { HomeOutlined } from '@vicons/material'
 </script>
-
+<!--  -->
 <template>
   <router-view v-if="$route.name === 'draft'" />
   <n-config-provider :locale="zhCN" :dateLocale="dateZhCN" class="p-2" v-else>
