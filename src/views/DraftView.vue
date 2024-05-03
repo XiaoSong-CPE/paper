@@ -11,11 +11,15 @@ import '@/assets/pubcss-ieee.css'
 // import '@/assets/pubcss-acm-sig.css'
 // import '@/assets/pubcss-acm-sigchi-ea.css'
 // import '@/assets/pubcss-acm-sigchi.css'
+import wordsCount from 'words-count'
+
+let a = draftString.replace(/\[.*?\]/g, '').replace(/```[\s\S]*?```/g, '')
+console.log(wordsCount(a))
 
 let md = markdownIt({
   html: true,
   linkify: true,
-  typographer: true,
+  typographer: true
 })
   .use(markdownItAnchor)
   .use(markdownItTOC, {

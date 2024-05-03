@@ -1,11 +1,12 @@
 <script setup lang="ts">
-import { NDataTable, type DataTableColumns } from 'naive-ui'
+import { NDataTable, NPopover, type DataTableColumns } from 'naive-ui'
 import csv from '@/translation-pair.csv?raw'
 import MarkdownIt from 'markdown-it'
 import markdownItKatex from '@iktakahiro/markdown-it-katex'
 import { h } from 'vue'
 import { parse } from 'csv-parse/browser/esm/sync'
 import 'github-markdown-css/github-markdown.css'
+import 'mdui/mdui.css'
 
 let md = new MarkdownIt({
   breaks: true
@@ -30,6 +31,12 @@ let rawData: RawData[] = parse(csv, {
   columns: true,
   skip_empty_lines: true
 })
+let res = ''
+for (let index = 0; index < rawData.length; index++) {
+  const element = rawData[index]
+  res = res + element.English + '\n'
+}
+console.log(res)
 let rowData: RowData[] = rawData.map((row, index) => {
   return {
     ...row,
@@ -44,10 +51,22 @@ if (import.meta.env.DEV) {
 
 let columns: DataTableColumns<RowData> = [
   {
-    type: 'expand',
-    expandable: (rowData) => rowData.Note !== '',
-    renderExpand: (rowData) => {
-      return h('div', { innerHTML: md.render(rowData.Note) })
+    key: 'No.',
+    title: 'No.',
+    width: 48,
+    render: (rowData, rowIndex) => {
+      return rowData.Note
+        ? h(
+            NPopover,
+            {
+              trigger: 'hover'
+            },
+            {
+              trigger: () => h('span', { style: { color: 'red' } }, rowIndex + 1),
+              default: () => h('div', { innerHTML: md.render(rowData.Note) })
+            }
+          )
+        : rowIndex + 1
     }
   },
   {

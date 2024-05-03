@@ -1,9 +1,3 @@
-<!-- <div class="col-span page-break">
-
-[[toc]]
-
-</div> -->
-
 <header class="col-span">
   <h1 class="title counter-skip">English Quality Assessment in Science Museum</h1>
   <h2 class="subtitle counter-skip">A Case Study at China Science and Technology Museum</h2>
@@ -29,7 +23,7 @@ Interactivity, not confined to digital media, has existed in various forms of en
 
 Language plays a crucial role in MIES interactivity, involving users in dialogues and providing feedback through multimedia like text, audio, or video. Translation must capture the nuances of these exchanges, ensuring the immersive experience of MIES transcends language barriers. Achieving this requires linguistic flexibility, adherence to syntactical and morphological rules, and cultural sensitivity to maintain user immersion.
 
-Internationalization surpasses mere translation; it tailors a MIES to the cultural, legal, and technical needs of its target audience. Playability, the ease and enjoyment of using a MIES, directly hinges on the quality of internationalization. Errors in gender, number agreement, or mode of address can compromise user experience. Meticulous internationalization is essential to ensure the coherence and engagement of the MIES's narrative and mechanics in all languages.
+Internationalization surpasses mere translation; it tailors a MIES to the cultural, legal, and technical needs of its target audience. Playability, ease, and enjoyment of using an MIES, directly hinges on the quality of internationalization. Errors in gender, number agreement, or mode of address can compromise user experience. Meticulous internationalization is essential to ensure the coherence and engagement of the MIES's narrative and mechanics in all languages.
 
 MIES marks a new frontier in translation studies, where interactivity and internationalization assume paramount importance. Preserving the interactive essence of MIES while adapting them to diverse linguistic and cultural contexts poses a challenge. As MIES continues to evolve, the field of translation must also evolve, embracing the complexities of intercultural communication and the creative possibilities of interactive storytelling.
 
@@ -122,11 +116,21 @@ The research objectives are twofold. Firstly, the study endeavors to identify la
 
 ## Research Significance
 
-This study is completely meaningless to the academic circle.
+This research holds significance in its potential to elevate internationalization practices within science museums in Beijing, thereby enhancing the visitor experience for a global audience. By applying MIES internationalization theories to the context of science museums, this study aims to bridge the gap between evolving translation studies and the practical needs of cultural institutions in the digital age.
 
-::: todo
-Make up some significance.
-:::
+### Advancing Translation Studies
+
+This research contributes to the academic discourse by broadening the scope of translation studies to encompass multimedia and interactivity as crucial components. It challenges conventional translation paradigms by illustrating the significance of cultural and contextual adaptability within MIES, a concept extendable to other interactive and multimedia content within museums.
+
+### Cultural Exchange and Diplomacy
+
+As Beijing's science museums increasingly participate in international collaborations and cultural diplomacy, the quality of English internationalization emerges as a pivotal factor in effective communication. The findings of this study will be pivotal in refining the museums' internationalization strategies, thereby facilitating a deeper appreciation of Chinese scientific accomplishments and cultural heritage among international visitors.
+
+### Methodological Innovation
+
+Lastly, this research signifies methodological innovation by devising an internationalization quality assessment framework for traditional translation, drawing inspiration from best practices in the well-established MISE industry. This initiative aims to modernize and enhance the efficiency and accuracy of the traditional translation industry.
+
+In summary, this research not only addresses the immediate need to enhance internationalization practices within Beijing's science museums but also contributes to broader academic discussions within translation studies. By advocating for a more inclusive approach that embraces multimedia and interactivity, it sets a precedent for future research in this field. Furthermore, its implications extend beyond the academic realm, offering practical insights for cultural institutions navigating the complexities of international collaboration and communication. Ultimately, this study strives to foster mutual understanding and appreciation across cultures, thereby enriching the global discourse on science and cultural heritage.
 
 </section>
 
@@ -142,7 +146,7 @@ Among the three dimensions under consideration, text translation stands out as t
 
 In the domain of analyzing errors in Chinese-English translation using linguistic landscape theory, scholars have frequently highlighted the issue of **consistency**. For instance, Tian Feiyang and Zhang Weijia^[田飞洋, 张维佳. 全球化社会语言学:语言景观研究的新理论——以北京市学院路双语公示语为例[J]. 语言文字应用, 2014(02):38-45. DOI:10.16499/j.cnki.1003-5397.2014.02.005.] identified discrepancies such as "QINGHUA East Rd" and "QINGHUA DONGLU" being two English names for the same road, potentially confusing for foreigners. Given the widespread use of Pinyin in China, this issue is prevalent. Another example comes from Qiu Ying^[邱莹. 上饶市语言景观调查研究[J]. 语言文字应用, 2016(03):40-49. DOI:10.16499/j.cnki.1003-5397.2016.03.005.], who found common mix-ups like "LU" and "RD," "DADAO" and "AVENUE," and "SHAN" and "MT" in Shangrao city. This paper will similarly analyze consistency in the internationalization of science museums in Beijing, given its objectivity and significance.
 
-Another frequently cited concern is proficiency in **writing** English**. Sun Li's research^[孙利. 语言景观翻译的现状及其交际翻译策略[J]. 江西师范大学学报(哲学社会科学版), 2009, 42(06):153-156.] identified errors ranging from incorrect spelling, such as "China Psot" instead of "China Post," to incorrect meaning, like interpreting "watering place" as "drinking water," and grammar mistakes, for instance, "PLEASE WELL KEPT YOUR PASSWORD" instead of "Please keep your PIN number safe." A common shortcoming in papers addressing English writing errors is the absence of a standard. While it is widely known that "Psot" is misspelled in English-speaking regions, this may not suffice for more complex situations. This paper will scrutinize English writing in the internationalization of science museums in Beijing, providing standards and rationale for their selection. Further details can be found in the methodology chapter.
+Another frequently cited concern is proficiency in **writing English**. Sun Li's research^[孙利. 语言景观翻译的现状及其交际翻译策略[J]. 江西师范大学学报(哲学社会科学版), 2009, 42(06):153-156.] identified errors ranging from incorrect spelling, such as "China Psot" instead of "China Post," to incorrect meaning, like interpreting "watering place" as "drinking water," and grammar mistakes, for instance, "PLEASE WELL KEPT YOUR PASSWORD" instead of "Please keep your PIN number safe." A common shortcoming in papers addressing English writing errors is the absence of a standard. While it is widely known that "Psot" is misspelled in English-speaking regions, this may not suffice for more complex situations. This paper will scrutinize English writing in the internationalization of science museums in Beijing, providing standards and rationale for their selection. Further details can be found in the methodology chapter.
 
 Some scholars have also raised concerns about **style and tone**. In the research conducted by Ding Rongrong^[丁容容. 全球化与旅游景点公共标识语翻译研究[J]. 黎明职业大学学报, 2010(04):82-86. DOI:10.13446/j.cnki.jlvu.000907.], concerns were raised about the use of terms such as "old," "disabled," and "pregnant" in public spaces, deeming them sensitive and inappropriate. However, it is important to note that this perspective may lack objectivity. For instance, Ding Rongrong proposes replacing the directive "SUNDRIES PROHIBIT" with a milder expression like "PLEASE DON'T LITTER," advocating for a more considerate tone. Nevertheless, this argument falls short as it fails to offer a systematic method for determining which words, under specific circumstances, might be considered too harsh or inappropriate. In this study, open-source language models are employed to assess the sentiment and formality of text within science museums in Beijing. This evaluation aims to determine the appropriateness of language use while maintaining objectivity, as detailed in the methodology chapter.
 
@@ -158,7 +162,7 @@ In this section, the focus shifts to the translation of multimedia, considering 
     "data": ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
   },
   "yAxis": { "axisLabel": { "formatter": "{value} %" } },
-  "legend": { "data": ["Chrome", "Safari", "Edge", "Firefox", "Opera"], "top": "bottom" },
+  "legend": { "data": ["Chrome", "Safari", "Edge", "Firefox", "Opera", "Other"], "top": "bottom" },
   "series": [
     {
       "name": "Chrome",
@@ -186,99 +190,9 @@ In this section, the focus shifts to the translation of multimedia, considering 
       "data": [2.4, 2.26, 2.34, 2.41, 2.82, 3.21, 2.98, 2.74, 2.91, 3.31, 3.15, 2.86]
     },
     {
-      "name": "Samsung Internet",
-      "type": "line",
-      "data": [2.61, 2.59, 2.57, 2.59, 2.5, 2.39, 2.38, 2.32, 2.31, 2.33, 2.45, 2.6]
-    },
-    {
-      "name": "UC Browser",
-      "type": "line",
-      "data": [0.88, 0.88, 0.89, 0.93, 0.79, 1.02, 1.01, 0.98, 0.87, 0.78, 0.79, 0.87]
-    },
-    {
-      "name": "Android",
-      "type": "line",
-      "data": [0.77, 0.74, 0.69, 0.74, 0.63, 0.62, 0.6, 0.54, 0.56, 0.5, 0.44, 0.42]
-    },
-    {
-      "name": "Yandex Browser",
-      "type": "line",
-      "data": [0.23, 0.23, 0.23, 0.27, 0.24, 0.22, 0.27, 0.28, 0.3, 0.28, 0.3, 0.32]
-    },
-    {
-      "name": "360 Safe Browser",
-      "type": "line",
-      "data": [0.36, 0.32, 0.23, 0.2, 0.21, 0.25, 0.28, 0.3, 0.28, 0.26, 0.26, 0.28]
-    },
-    {
-      "name": "QQ Browser",
-      "type": "line",
-      "data": [0.22, 0.2, 0.2, 0.21, 0.2, 0.19, 0.18, 0.17, 0.17, 0.16, 0.16, 0.18]
-    },
-    {
-      "name": "IE",
-      "type": "line",
-      "data": [0.25, 0.25, 0.26, 0.24, 0.21, 0.22, 0.14, 0.14, 0.12, 0.11, 0.13, 0.14]
-    },
-    {
-      "name": "Coc Coc",
-      "type": "line",
-      "data": [0.12, 0.16, 0.19, 0.2, 0.2, 0.22, 0.1, 0.09, 0.1, 0.1, 0.08, 0.08]
-    },
-    {
-      "name": "Whale Browser",
-      "type": "line",
-      "data": [0.11, 0.11, 0.11, 0.12, 0.11, 0.09, 0.08, 0.05, 0.06, 0.06, 0.06, 0.08]
-    },
-    {
-      "name": "KaiOS",
-      "type": "line",
-      "data": [0.06, 0.08, 0.07, 0.07, 0.1, 0.1, 0.06, 0.06, 0.06, 0.08, 0.07, 0.04]
-    },
-    {
-      "name": "Mozilla",
-      "type": "line",
-      "data": [0.07, 0.07, 0.07, 0.07, 0.06, 0.02, 0.03, 0.03, 0.06, 0.03, 0.02, 0.02]
-    },
-    {
-      "name": "Puffin",
-      "type": "line",
-      "data": [0.08, 0.08, 0.04, 0.05, 0.04, 0.04, 0.04, 0.05, 0.02, 0.03, 0.03, 0.04]
-    },
-    {
-      "name": "Edge Legacy",
-      "type": "line",
-      "data": [0.05, 0.04, 0.05, 0.05, 0.04, 0.02, 0.02, 0.03, 0.05, 0.01, 0.01, 0.02]
-    },
-    {
-      "name": "Instabridge",
-      "type": "line",
-      "data": [0.07, 0.06, 0.03, 0.04, 0.06, 0.04, 0.04, 0.04, 0.03, 0.01, 0.01, 0.03]
-    },
-    {
-      "name": "Sogou Explorer",
-      "type": "line",
-      "data": [0.08, 0.02, 0.05, 0.02, 0.02, 0.03, 0.02, 0.03, 0.05, 0.01, 0.01, 0.01]
-    },
-    {
-      "name": "Sony PS4",
-      "type": "line",
-      "data": [0.05, 0.03, 0.03, 0.01, 0.01, 0.02, 0.04, 0.04, 0.03, 0.01, 0.01, 0.01]
-    },
-    {
-      "name": "Unknown",
-      "type": "line",
-      "data": [0.01, 0.02, 0.01, 0.01, 0.01, 0.01, 0.02, 0.01, 0.01, 0.01, 0.01, 0.01]
-    },
-    {
-      "name": "Chromium",
-      "type": "line",
-      "data": [0.01, 0.02, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01]
-    },
-    {
       "name": "Other",
       "type": "line",
-      "data": [0.05, 0.05, 0.07, 0.07, 0.05, 0.06, 0.05, 0.06, 0.12, 0.08, 0.08, 0.08]
+      "data": [6.02, 6.93, 6.81, 5.93, 5.42, 5.66, 5.59, 5.48, 5.41, 5.64, 5.22, 5.54]
     }
   ]
 }
@@ -312,21 +226,33 @@ Develop or find an objective method for evaluating the quality of interactivity 
 
 <section>
 
-This chapter comprises two distinct sections: data collection and internationalization analysis. The data collection section delineates the methodology employed and specifies the time during which the data were gathered. Conversely, the internationalization analysis section provides a detailed exposition of the analytical approach utilized and elucidates the rationale behind selecting these particular methods.
+This chapter consists of two distinct sections: data collection and internationalization analysis. The data collection section outlines the methodology employed and specifies the timeframe during which the data were gathered. Conversely, the internationalization analysis section provides a detailed explanation of the analytical approach used and clarifies the rationale behind selecting these particular methods.
 
 ## Data Collection
 
-Go to the target science museums in Beijing in person and collect the data by taking photos.
+The data collection process began with on-site visits to the China Science and Technology Museum, a hub of knowledge and innovation located in Beijing. Equipped with high-resolution cameras, the researcher embarked on a comprehensive exploration of the museum's exhibits, capturing a diverse range of English and Chinese textual content displayed on plaques, informational boards, and interactive displays.
 
-::: todo
+Following the photographic documentation phase, the subsequent step involved converting these images into machine-readable text using Optical Character Recognition (OCR) technology. By leveraging advanced OCR algorithms, the textual content embedded within the photographed exhibits was transcribed into digital format, thereby facilitating further analysis and processing.
 
-TBD
+However, recognizing the inherent limitations of OCR technology, a thorough manual verification process was undertaken to rectify any inaccuracies or discrepancies within the transcribed textual data. This critical verification phase entailed meticulously scrutinizing each transcribed document for errors or mistranscriptions, ensuring the integrity and accuracy of the resulting dataset. The researcher personally conducted this verification task, meticulously cross-referencing the transcribed text with the original images to rectify any inconsistencies.
 
-:::
+The integration of manual and technological methodologies within the data collection process at the China Science and Technology Museum represents a paradigmatic approach to acquiring bilingual translation pairs. By harmonizing physical exploration with state-of-the-art OCR technology and meticulous manual verification, the resulting dataset serves as a testament to the precision and rigor demonstrated in linguistic research and language processing.
 
-## Methods of Quality Assessment
+The translation pair data can be found at https://xiaosong-cpe.github.io/paper/translation-pair.
 
-This study has selected a set of standards for analyzing the quality of internationalization in science museums in Beijing. An evident shortcoming of this analytical approach is that the quality of the selected standards will undoubtedly impact the evaluation results. In this specific context, standards recognized by China's authorities are deemed as the "truth," while others may not be as fortunate. Despite this notable limitation, standards also confer benefits, specifically objectivity. In the realm of studies on machine translation, for instance, the customary assessment of translation quality involves comparing machine-translated text to human-translated text, serving as the standard. While the latter may not always be the optimal benchmark, leading to less accurate assessment results, this standardized method ensures justice. If one object receives an inflated score, others under the same circumstances are similarly affected. Taking this into consideration, this paper adopts a standardized approach to conduct the assessment of internationalization quality, aiming to ensure objectivity.
+## Quality Assessment Methods
+
+This study employs a set of predefined standards to analyze the quality of internationalization in science museums located in Beijing. An inherent limitation of this analytical approach is the significant influence of the selected standards on the evaluation outcomes. Herein, standards endorsed by Chinese authorities are regarded as authoritative, while alternative standards are cautiously selected, recognizing the inherent imperfections of any single standard. Despite this notable constraint, standards offer advantages, particularly in terms of objectivity.
+
+In the domain of machine translation research, quality assessment frequently relies on standardized metrics such as BLEU (Bilingual Evaluation Understudy). BLEU evaluates the quality of text translated by machines from one natural language to another. The fundamental principle of BLEU is that the closer a machine translation aligns with a professional human translation, the higher its quality—a principle reflecting the core concept of this metric[^Papineni2002]. Developed at IBM in 2001, BLEU was one of the pioneering metrics demonstrating a strong correlation with human quality judgments and remains one of the most widely utilized automated and cost-effective metrics in the field[^Papineni2002][^Coughlin2003].
+
+BLEU scores are calculated for individual translated segments, typically sentences, by comparing them with a set of high-quality reference translations. These scores are then averaged across the entire corpus to provide an overall estimate of translation quality. It is important to note that BLEU does not consider factors such as intelligibility or grammatical correctness[^Papineni2002].
+
+The BLEU metric generates scores ranging from 0 to 1, indicating the similarity between the machine-translated text and the reference texts, with values closer to 1 representing higher similarity. Human translations rarely achieve a score of 1, as this would suggest identity with one of the reference translations. Hence, a score of 1 is not necessarily a target. Furthermore, incorporating additional reference translations can elevate BLEU scores due to increased matching opportunities[^Papineni2002].
+
+Although human-translated text may not always serve as the optimal benchmark, potentially leading to less accurate assessment outcomes, this standardized approach ensures fairness. In cases where one entity receives an inflated score, others under similar conditions are similarly impacted.
+
+Taking into account these considerations, this paper adopts a standardized approach to evaluate the quality of internationalization to ensure objectivity. All standards will be delineated before each quality assessment. For further elaboration, refer to the chapter on Quality Assessment Results.
 
 </section>
 
@@ -340,27 +266,60 @@ TBD
 
 :::
 
-## Typography
+## Writing English
 
-Rules governing spelling, hyphenation, capitalization, word breaks, emphasis, punctuation, and other aspects are ubiquitous. The pivotal question revolves around determining the most widely acknowledged standard, given the potential conflicts inherent in various rule sources.
+Standards governing spelling, hyphenation, capitalization, word breaks, emphasis, punctuation, and related aspects are widespread and crucial. The pivotal question revolves around determining the most widely acknowledged standard amidst potential conflicts inherent in various rule sources.
 
-As an illustrative case, German underwent orthographic reform in 1996 (Reform der deutschen Rechtschreibung von 1996), stemming from an international agreement signed in Vienna in July 1996 by the German-speaking countries' governments, including Germany, Austria, Liechtenstein, and Switzerland. This reform served as the official orthography to adjudicate correct sentence structures. While governments in German-speaking countries do not mandate an official dictionary, the Duden serves as the most acknowledged primary reference resource and an "unofficial authority" for German vocabulary.
+As an illustrative case, the German language underwent orthographic reform in 1996 (Reform der deutschen Rechtschreibung von 1996), resulting from an international agreement signed in Vienna in July 1996 by the governments of German-speaking countries, including Germany, Austria, Liechtenstein, and Switzerland. This reform established the official orthography for adjudicating correct sentence structures. While German-speaking countries' governments do not mandate an official dictionary, the Duden serves as the most widely acknowledged primary reference resource and an "unofficial authority" for German vocabulary^[German localization style guide - download center[EB/OL]. deu-deu-StyleGuide.pdf, Microsoft[2024-05-03]. https://download.microsoft.com/download/e/f/9/ef9f6d8e-cd8b-420c-8696-afd98b4a367d/deu-deu-StyleGuide.pdf.].
 
-In contrast to German, English orthographic reforms lack systematicity or widespread acknowledgment. This paper adopts the _English Style Guide_^[English style guide[EB/OL]. eng-gbr-StyleGuide.pdf, European Commission, 2023-11-14. (2023-11-14)[2024-01-04]. https://commission.europa.eu/system/files/2023-11/styleguide_english_dgt_en.pdf.] from the European Commission as the standard for English writing. This choice is grounded in several considerations:
+In contrast to German, English orthographic reforms lack systematicity or widespread acknowledgment. When assessing the quality of English translations in Beijing's science museums, it becomes crucial to determine a widely accepted standard. In this context, I propose adopting the _English Style Guide_^[English style guide[EB/OL]. eng-gbr-StyleGuide.pdf, European Commission, 2023-11-14. (2023-11-14)[2024-01-04]. https://commission.europa.eu/system/files/2023-11/styleguide_english_dgt_en.pdf.] from the European Commission as the benchmark. Let's explore the rationale behind this choice.
 
-- Both the guide and science museums in Beijing employ Irish/British English.
-- The Common European Framework of Reference for Languages (CEFR), one of the most renowned language evaluation systems, originates from the European Union.
-- The guide enjoys widespread acknowledgment within the European Union.
-- The guide is a freely accessible open-source document.
-- The guide references various other acknowledged standards, such as the _New Oxford Dictionary for Writers and Editors_, as supplementary resources.
+Firstly, the _English Style Guide_ ensures language consistency. Beijing's science museums employ both American English and Irish/British English, or even more variants. While it's acceptable to use any English style, mixing multiple styles within the same context can lead to confusion. Therefore, employing the European Commission's guide, which follows Irish/British English, is appropriate. By adhering to this shared linguistic framework, we ensure consistency across all translated materials, offering visitors a seamless experience throughout the exhibits.
 
-- Misspelling
-  - "northem" for "northern" (perhaps caused by OCR)
-  - "Provinse" for "Province"
+Secondly, the European Union boasts some of the world's leading language specialists, evidenced by initiatives like the CEFR. The Common European Framework of Reference for Languages (CEFR), originating from the European Union, stands as one of the most respected language evaluation systems globally. Aligning our standards with the European Commission's guide harmonizes our approach with the CEFR's rigorous criteria, thereby enhancing the quality of translations and reflecting our commitment to excellence.
+
+Thirdly, the European Commission's _English Style Guide_ enjoys widespread recognition within the European Union. As an institution dedicated to promoting effective communication, the EU endorses this guide as a reliable resource. By adopting it, we tap into a well-established framework that resonates with international audiences.
+
+Fourthly, the guide's accessibility and open-source nature are noteworthy. Its freely accessible nature ensures that translators, editors, and content creators worldwide can consult it without barriers, fostering collaboration and knowledge sharing. Utilizing an open-source document contributes to a global network of language enthusiasts striving for clarity and precision.
+
+Fifthly, the _English Style Guide_ supplements its recommendations by referencing various other acknowledged standards, such as the _New Oxford Dictionary for Writers and Editors_. By drawing from multiple reputable sources, we create a comprehensive toolkit for language professionals, ensuring that translations meet high standards of correctness and readability.
+
+In conclusion, adopting the European Commission's _English Style Guide_ empowers us to rigorously assess English translations in Beijing's science museums. Prioritizing consistency, aligning with renowned evaluation systems, leveraging EU recognition, embracing accessibility, and referencing established standards collectively elevate the quality of communication within these cultural institutions. As visitors explore the exhibits, they encounter not only scientific wonders but also linguistic excellence—a testament to our dedication to effective cross-cultural communication.
+
+### Punctuation
+
+This chapter endeavors to elucidate punctuation-related errors present in translations within science museums in Beijing. We conducted a comprehensive analysis of these translations and compiled a catalogue of recurring errors that could potentially impede comprehension and detract from the visitor experience.
+
+The primary error type identified is the misuse of commas within clauses, which occurred 13 times in our translation corpus. Such misapplications of commas within clauses can result in ambiguity and confusion. For instance, in describing the Han Dynasty's iron smelting technology, a sentence reads: "... not only saved human and animal power, but also improved blast capacity and boosted the development of iron smelting technology." Here, the comma preceding "but also" disrupts the flow of the correlative conjunction "not only...but also." Eliminating this comma would enhance sentence clarity, ensuring the relationship between the two clauses is understood.
+
+The second type of error involves superfluous punctuation in compound or complex sentences, identified once in our translation corpus. While compound and complex sentences are essential for conveying detailed information succinctly, incorrect punctuation can obscure intended meanings. Consider the following sentence: "Its principle was to ensure stable water quantity in the star pot via a multi-stage water clock, so that the water pressure was stable and the flow velocity unchanged." The comma preceding the dependent clause "so that ..." is unnecessary. In complex sentences, a comma is required only when the dependent clause precedes the independent clause. Removing this comma would align the sentence with proper grammatical conventions.
+
+The third error type concerns closing punctuation, noted once in our translation corpus. Proper closing punctuation signifies the end of a thought or statement. An example of incorrect closing punctuation is found in the sentence: "The first record of using the compass in Europe was found in 1190 A.D.." The double full stops at the end of the sentence is redundant. The correct approach would be to use a single full stop, even when the sentence concludes with an abbreviation.
+
+The fourth type of error concerns the omission of a full stop, which was identified eight times in our translation corpus. The absence of a full stop at the end of a sentence can disrupt the reader's rhythm and cause stumbling. For example, in the sentence, "The exhibit is a 1:3 miniature copy of the gnomon of Purple Hills," which concludes a paragraph, the lack of a full stop can impede comprehension and disrupt the text's flow. This omission, especially when noted at the paragraph's conclusion, highlights the importance of maintaining proper punctuation. Importantly, this type of mistake is easily avoidable and should not occur with such frequency. When considered alongside other findings, these errors likely arise from manual copying and pasting, a topic we will delve into further in the Discussion and Suggestions chapter.
+
+Additionally, we encountered some mistakes likely caused by accidents, such as the double semicolon in the sentence: "Shen Kuo, a scientist in the Northern Song Dynasty, made a record in _Mengxi Bitan_:: 'If you want to ...'" or "etc" without a full stop while another "etc" next to it has one. These errors will not be counted.
+
+In conclusion, the precision of punctuation is not merely a matter of grammatical pedantry but a cornerstone of clear communication. In science museums, where education and accuracy are paramount, attention to such details is essential. By rectifying these punctuation errors, the museums in Beijing will not only improve the visitor experience but also uphold the standards of scientific dissemination.
+
+### Spelling
+
+In this chapter, we explore the intricacies of misspellings. Our translation corpus, sourced from science museums in Beijing, has uncovered a total of 95 misspelled words, which can be roughly categorized into four types.
+
+The first category of spelling errors involves the unexplained use of Chinese pinyin. Instances such as 'qiandu' for 壍堵, 'yangma' for 阳马, and 'bienao' for 鳖臑 are perplexing without context. These transliterations, while phonetically accurate, fail to convey meaning to those unfamiliar with Chinese characters. This raises questions about the effectiveness of such translations in an educational setting, where comprehension is key. Furthermore, without capitalization or italics, these words are regarded as misspelled in this paper.
+
+The second type of error arises from the use of Optical Character Recognition (OCR) technology. Words like "northem" instead of "northern," "Provinse" in place of "Province," and "lron" for "iron" highlight the limitations of OCR. While there is no overt reason for the museums to use OCRed text, the rationale behind OCR employment in translation will be further discussed in the Discussion and Suggestions chapter.
+
+The third type of error is the inconsistent use of British English and other English dialects. This is evident in words such as "color" and "colour," "enameling" and "enamelling," as well as "neighboring" and "neighbouring." The mixture of dialects can lead to confusion and detracts from the professionalism expected in such scholarly environments.
+
+Lastly, the fourth and final category encompasses common mistakes such as "metallographical" instead of "metallographic," "acupunction" rather than "acupuncture," and "casted" instead of "cast." These errors may stem from typographical oversight or a lack of familiarity with the correct terminology, emphasizing the importance of thorough proofreading and linguistic expertise in translation efforts.
+
+Based on the discussion above, it becomes apparent that there are multiple reasons for misspelling, thus necessitating multiple methods to deal with them. The solutions or suggestions will be discussed later.
+
+---
+
 - Capitalization
   - "china" for "China"
-- Punctuation
-  - Lack of full stop at the end of a sentence
 - Other
   - Lack of explanation for abbreviations
   - "he/she" for "they" and its variants
@@ -390,6 +349,8 @@ In contrast to German, English orthographic reforms lack systematicity or widesp
 - Numeric list
   - 1. 2. 3.
   - (none)
+- "&" with space around or not?
+- brackets with space or not?
 
 ## Style and Tone
 
@@ -430,3 +391,8 @@ TBD
 :::
 
 </section>
+
+# Referrence
+
+[^Papineni2002]: PAPINENI K, ROUKOS S, WARD T, 等. BLEU: a Method for Automatic Evaluation of Machine Translation[J]. Proceedings of the 40th Annual Meeting on Association for Computational Linguistics  - ACL ’02, 2002: 311–318.
+[^Coughlin2003]: Coughlin D. Correlating Automated and Human Assessments of Machine Translation Quality [J]. In: MT Summit IX. New Orleans, USA: MT Summit, 2003:23-27.
