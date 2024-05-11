@@ -6,6 +6,7 @@ import markdownItFootnote from 'markdown-it-footnote'
 import markdownItContainer from 'markdown-it-container'
 import * as echarts from 'echarts'
 import draftString from '@/draft.md?raw'
+// import draftString from '@/draft_zh_sample.md?raw'
 import { nextTick, onMounted } from 'vue'
 import css from '@/assets/pubcss-ieee.css?raw'
 // import '@/assets/pubcss-acm-sig.css'
@@ -13,7 +14,15 @@ import css from '@/assets/pubcss-ieee.css?raw'
 // import '@/assets/pubcss-acm-sigchi.css'
 import wordsCount from 'words-count'
 
-let a = draftString.replace(/\[.*?\]/g, '').replace(/```[\s\S]*?```/g, '')
+let a = draftString
+  // remove code block
+  .replace(/```[\s\S]*?```/g, '')
+  // remove <table> tag
+  .replace(/<table[\s\S]*?<\/table>/g, '')
+  // remove html tag
+  .replace(/<[^>]*>/g, '')
+  // remove markdown table
+  .replace(/\|[\s\S]*?\n/g, '')
 console.log(wordsCount(a))
 
 let md = markdownIt({
@@ -41,7 +50,7 @@ let md = markdownIt({
     render: (tokens: any, idx: any) => {
       if (tokens[idx].nesting === 1) {
         const m = tokens[idx].info.trim().match(/^echarts\s+(.*)$/)
-        return `<figure class="echarts">\n<div style="width: 100%; height: auto"></div>\n<figcaption>${m[1]}</figcaption>`
+        return `<figure class="echarts">\n<div style="width: 100%; height: auto; "></div>\n<figcaption>${m[1]}</figcaption>`
       } else {
         return '</figure>'
       }
@@ -81,6 +90,14 @@ onMounted(async () => {
   document.querySelectorAll('.references cite>p').forEach((cite) => {
     cite.outerHTML = cite.innerHTML
   })
+  // move references to #ref
+  const references = document.querySelector('.references')
+  if (references) {
+    const ref = document.querySelector('#ref')
+    if (ref) {
+      ref.appendChild(references)
+    }
+  }
   // render echarts
   document.querySelectorAll('.echarts').forEach(async (echartsFigure) => {
     const json = echartsFigure.querySelector('pre')?.textContent
@@ -112,6 +129,11 @@ onMounted(async () => {
 </template>
 
 <style>
+.echarts {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 720px;
+}
 body {
   background-color: white;
 }

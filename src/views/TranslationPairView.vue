@@ -104,4 +104,15 @@ let columns: DataTableColumns<RowData> = [
 .katex-html {
   display: none;
 }
+/* bordered table */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+th,
+td {
+  border: 1px solid black;
+  text-align: left;
+  padding: 8px;
+}
 </style>

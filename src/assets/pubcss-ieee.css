@@ -59,7 +59,7 @@ a[href^='#'].table::after {
 }
 
 body {
-  column-count: 2;
+  /* column-count: 2; */
   column-gap: balance;
   column-gap: 0.33in;
   font-family: 'Times New Roman', Times, serif;
@@ -129,25 +129,17 @@ h6 {
   font-weight: bold;
   hyphens: none;
 }
-h1:not(.counter-skip)::before,
-h2:not(.counter-skip)::before,
-h3:not(.counter-skip)::before,
-h4:not(.counter-skip)::before,
-h5:not(.counter-skip)::before,
-h6:not(.counter-skip)::before {
-  margin-right: 0.5em;
-}
 
 h1 {
-  font-size: 'font-size-h1';
+  font-size: 16pt;
 }
 
 h2 {
-  font-size: 'font-size-h2';
+  font-size: 15pt;
 }
 
 h3 {
-  font-size: 'font-size-h3';
+  font-size: 14pt;
 }
 
 h4 {
@@ -167,9 +159,10 @@ html {
 }
 
 p {
-  line-height: 1.1;
+  line-height: 20pt;
   margin: 0 0 0.5em;
-  text-indent: 1.5em;
+  text-indent: 1em;
+  font-size: 12pt;
 }
 
 q::before {
@@ -330,16 +323,15 @@ h6.counter-reset {
 }
 
 h1:not(.counter-skip)::before {
-  content: '' '' counter(section, upper-roman) '.';
+  content: 'Chapeter ' counter(section, numeric) ' ';
 }
 
 h2:not(.counter-skip)::before {
-  content: '' '' counter(section, upper-roman) '.' counter(subsection, upper-alpha) '.';
+  content: counter(section, numeric) '.' counter(subsection, numeric) ' ';
 }
 
 h3:not(.counter-skip)::before {
-  content: '' '' counter(section, upper-roman) '.' counter(subsection, upper-alpha) '.'
-    counter(subsubsection, decimal) '.';
+  content: counter(section, numeric) '.' counter(subsection, numeric) '.' counter(subsubsection, numeric) ' ';
 }
 
 h4:not(.counter-skip)::before {
@@ -381,26 +373,20 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: normal;
+  font-weight: bold;
 }
 
 h1,
 h5 {
-  font-variant: small-caps;
   margin-bottom: 4pt;
-  text-align: center;
 }
 
-h3 {
-  text-indent: 1.5em;
-}
 
 h4 {
   text-indent: 2.25em;
 }
 
 h2 {
-  font-style: italic;
   margin-bottom: 2pt;
 }
 
@@ -408,10 +394,6 @@ h3,
 h4,
 h5 {
   page-break-after: auto;
-}
-
-h2:not(.counter-skip)::before {
-  content: '' counter(subsection, upper-alpha) '.';
 }
 
 h5:not(.counter-skip)::before {
@@ -425,7 +407,6 @@ h1 + * > h2:first-child {
 
 h3,
 h4 {
-  font-style: italic;
   margin: 10pt 0 0;
 }
 
@@ -491,7 +472,7 @@ caption {
 }
 
 figcaption {
-  text-align: left;
+  text-align: center;
 }
 
 .footnote {
@@ -550,4 +531,12 @@ cite {
   font-size: 8pt;
   margin-bottom: 3pt;
   text-align: left;
+}
+
+/* print */
+@media print {
+  h1 {
+    /* new page */
+    page-break-before: always;
+  }
 }
