@@ -1,6 +1,5 @@
 <header class="col-span">
-  <h1 class="title counter-skip">English Quality Assessment in Science Museum</h1>
-  <h2 class="subtitle counter-skip">A Case Study at China Science and Technology Museum</h2>
+  <h1 class="title counter-skip">English Quality Assessment within China Science and Technology Museum</h1>
 </header>
 
 # Introduction
@@ -410,7 +409,7 @@ In conclusion, ensuring consistency in translation is paramount, particularly in
 Use large language models to evaluate the sentiment^[CAMACHO-COLLADOS J, REZAEE K, RIAHI T, 等. TWEETNLP: Cutting-edge natural language processing for social media[J]. Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing: System Demonstrations, 2022. ]^[LOUREIRO D, BARBIERI F, NEVES L, 等. TimeLMs: Diachronic language models from Twitter[J]. Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics: System Demonstrations, 2022. ] and formality^[BABAKOV N, DALE D, GUSEV I, 等. Don’t lose the message while paraphrasing: A study on content preserving style transfer[J]. Natural Language Processing and Information Systems, 2023: 47–61. ] of the text.
 
 ::: todo
-to be coded
+Need a subscribtion
 :::
 
 ## Multimodal
@@ -421,12 +420,11 @@ Our field research reveals that the majority of videos in the science museum onl
 
 Adjacent to the Microsoft videos, another bilingual subtitled video discusses analog and digital quantities. The transcription of its subtitles can be found below. Nonetheless, the overall translation quality is notably low and likely a result of machine translation. As outlined by Luo^[罗季美,李梅.机器翻译译文错误分析[J].中国翻译,2012,33(05):84-89.], common errors in machine translation include term inconsistency and mistranslation of infinitive verb structures. In this video, term inconsistency occurs multiple times, such as translating 榕哥 into "Rong brother," "Rong elder brother," and "brother rong." Additionally, mistranslation of infinitive verb structures is evident, for instance, "Yeah, got it. It's better to look for Rong." is inaccurately translated as "Well To understand or to find reliable brother rong," likely due to dual meanings present in some Chinese words.
 
-
 | Source Text (Chinese)                        | Target Text (English)                                                      |
 | -------------------------------------------- | -------------------------------------------------------------------------- |
 | 模拟量与数字量                               | Analog quantity and digital quantity                                       |
 | 咦                                           | Hey                                                                        |
-| 稞稞 你在干嘛呢                               | Keke what are you doing                                                    |
+| 稞稞 你在干嘛呢                              | Keke what are you doing                                                    |
 | 我在想模拟量和数字量是什么                   | What do I want to do with analog andj digital                              |
 | 它们又有什么区别和联系                       | What are the differences and connections between them                      |
 | 恩 这个我也不知河                            | Well I don't know                                                          |
@@ -466,9 +464,13 @@ In conclusion, the examination of multimodal translation within the science muse
 
 ## Interactivity
 
-- Only guides are translated.
-- Only actions are translated.
-- No translation.
+This paper focuses exclusively on the presence and consistency of interactive translation within museums due to the limited scope of relevant studies in this area.
+
+Similar to multimodal translation, most interactive elements, such as button labels and guides, lack translation entirely. The absence of interactive translation significantly diminishes the enjoyment for non-Chinese-speaking audiences, as many exhibits in the museum rely on interactivity to convey knowledge in an engaging manner.
+
+Without translated interactive elements, visitors are unable to fully appreciate certain exhibits. However, inconsistent translation of interactivity can lead to confusion and potentially frustrate visitors. For instance, many exhibit guides mention a "Start" button, yet the button itself is often located next to a label containing only Chinese characters without any mention of "Start." Such inconsistencies are more problematic than the absence of translation itself, as they can waste the audience's time and are relatively simple to rectify.
+
+In summary, it is evident that consistent interactive translation is essential within museums to ensure all visitors can fully engage with and benefit from the exhibits.
 
 </section>
 
@@ -476,10 +478,17 @@ In conclusion, the examination of multimodal translation within the science muse
 
 <section>
 
-- make the progress automatic
-- use variety
-- use grammar assistant tools
-- recruit local translators
+The translation of exhibit labels and informational content in museums serves as a pivotal conduit for disseminating knowledge to a global audience. Drawing insights from the MIES industry and informed by previous analyses of translation quality, the China Science and Technology Museum stands to benefit from the adoption of several innovative strategies aimed at enhancing its English translation workflows.
+
+Firstly, the automation of the translation process is paramount. We have developed a prototype tool available at https://github.com/XiaoSong-CPE/exhibit-label-generator, capable of generating exhibit label print material automatically based on input translations. This tool can be adapted to address formatting issues such as font family and size automatically. The viability of automation, as demonstrated by this sample tool, is evident not only in the video game industry but also in traditional translation contexts such as museums. Automation not only expedites the process but also ensures consistency across all translated materials.
+
+Secondly, the use of constant variables is recommended. Incorporating constant variables, analogous to those utilized in programming, can mitigate discrepancies in the translation of names and terms. By establishing a single, unchanging variable for each unique name or term, we ensure consistent translation throughout the museum's exhibits.
+
+Thirdly, grammar assistant tools can be instrumental. Integrating grammar assistant tools can augment the quality of translations. These tools are adept at identifying common grammatical errors and proposing corrections, thereby facilitating more accurate and legible translations.
+
+Fourthly, the recruitment of local translators is advocated. Engaging local translators proficient in both Chinese and English can significantly elevate the quality of translations. These individuals possess a deeper comprehension of cultural nuances and can deliver translations that resonate more effectively with international visitors.
+
+By implementing these suggestions, the China Science and Technology Museum can markedly enhance the visitor experience for non-Chinese speakers and cultivate a more inclusive environment for international science communication.
 
 </section>
 
@@ -487,11 +496,11 @@ In conclusion, the examination of multimodal translation within the science muse
 
 <section>
 
-::: todo
+The English quality assessment conducted at the China Science and Technology Museum has shed light on the intricacies involved in evaluating language proficiency within an exhibitory context. This case study has not only revealed some translation mistakes hidden in the museum but also provided some improvement suggestions transplanted from the video games industry.
 
-TBD
+In conclusion, the study advocates for a hybrid approach to quality assessment, leveraging the efficiency of technology. It is imperative for institutions like the China Science and Technology Museum to continuously refine their translation practices to meet the evolving needs of a diverse audience.
 
-:::
+For future research, we suggest an expanded analysis to include a broader range of languages and museums. Additionally, the development of more sophisticated automated assessment tools that can better account for context and audience variability is recommended. Such advancements would be a significant step towards enhancing cross-cultural communication in the realm of science education and exhibition.
 
 </section>
 
