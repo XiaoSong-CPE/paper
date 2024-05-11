@@ -12,14 +12,6 @@ const router = createRouter({
       }
     },
     {
-      path: '/progress',
-      name: 'progress',
-      component: () => import('../views/ProgressView.vue'),
-      meta: {
-        title: '进度 Progress'
-      }
-    },
-    {
       path: '/translation-pair',
       name: 'translationPairView',
       component: () => import('../views/TranslationPairView.vue'),

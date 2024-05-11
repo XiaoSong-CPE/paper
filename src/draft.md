@@ -204,11 +204,7 @@ In traditional translation studies, multimedia translation was commonly referred
 
 The translation of video subtitles represents one of the extensively studied aspects of multimodal translation. Researchers in this domain commonly agree that multimodal elements like images, audio, and videos impact the source text, consequently influencing the translation process. For instance, Yi Jing^[JING Y. Independent versus latched interjections: Co-textual differences and their expendability in film subtitling[J]. Lingua, 2021, 254: 103053.] explored the translation of video subtitles, focusing on the nuanced decision-making process regarding the inclusion of self-expressive interjections. The research revealed that the determination to maintain such interjections in subtitle translation relied not solely on textual factors, considering the linguistic level of the interjection in a sentence. It also took into account audio aspects, with no necessity for interjection translation if it merely described the sound's phonetics. Additionally, the study considered visual elements, where concurrent facial expressions and bodily gestures might convey similar or commensurate meanings.
 
-This paper will apply a similar conceptual framework to assess the quality of multimodal translation in science museums in Beijing. To ensure objectivity,
-
-::: todo
-Develop or find an objective method for evaluating the quality of multimodal translation.
-:::
+This study will employ a comparable conceptual framework to evaluate the efficacy of multimodal translation within science museums situated in Beijing. Given the absence of a universally recognized standard for assessing multimodal translation, our analysis will focus solely on the objective evaluation of the five dimensions of multimodal translation as outlined by Qian^[钱绍昌.影视翻译──翻译园地中愈来愈重要的领域[J].中国翻译,2000,(01):61-65.], which include auditory, comprehensive, instantaneous, colloquial, and non-annotation aspects.
 
 ## Translation of Interactivity
 
@@ -216,9 +212,7 @@ Although the term "interactivity" might appear to be a recent concept primarily 
 
 The disintegration of interactive text stands as a pivotal concern in the localization of MIES and the internationalization of science museums. As noted by Pym^[PYM A. What technology does to translating[J]. The International Journal of Translation and Interpreting Research, 2011, 3: 1–9.], technology disrupts linearity, a disruption that becomes particularly conspicuous in our interactions with websites. This disruption shifts the emphasis away from linearity and towards the technological facets of communication, occasionally obscuring the human element intrinsic to the process of translation.
 
-::: todo
-Develop or find an objective method for evaluating the quality of interactivity translation.
-:::
+Given the relatively limited scope of relevant studies, this paper will solely concentrate on the presence and consistency of interactive translation.
 
 </section>
 
@@ -260,15 +254,11 @@ Taking into account these considerations, this paper adopts a standardized appro
 
 <section>
 
-::: todo
-
-TBD
-
-:::
+This section will assess the English quality within the Science Museum according to the following seven aspects: writing English, typography, consistency, style & tone, multimodal and interactivity. Each subchapter will provide a brief introduction, explain the assessment methods in detail and present the assessment results.
 
 ## Writing English
 
-Standards governing spelling, hyphenation, capitalization, word breaks, emphasis, punctuation, and related aspects are widespread and crucial. The pivotal question revolves around determining the most widely acknowledged standard amidst potential conflicts inherent in various rule sources.
+Standards governing punctuation, spelling, capitalization, hyphenation, and related aspects are widespread and crucial. The pivotal question revolves around determining the most widely acknowledged standard amidst potential conflicts inherent in various rule sources.
 
 As an illustrative case, the German language underwent orthographic reform in 1996 (Reform der deutschen Rechtschreibung von 1996), resulting from an international agreement signed in Vienna in July 1996 by the governments of German-speaking countries, including Germany, Austria, Liechtenstein, and Switzerland. This reform established the official orthography for adjudicating correct sentence structures. While German-speaking countries' governments do not mandate an official dictionary, the Duden serves as the most widely acknowledged primary reference resource and an "unofficial authority" for German vocabulary^[German localization style guide - download center[EB/OL]. deu-deu-StyleGuide.pdf, Microsoft[2024-05-03]. https://download.microsoft.com/download/e/f/9/ef9f6d8e-cd8b-420c-8696-afd98b4a367d/deu-deu-StyleGuide.pdf.].
 
@@ -302,6 +292,34 @@ Additionally, we encountered some mistakes likely caused by accidents, such as t
 
 In conclusion, the precision of punctuation is not merely a matter of grammatical pedantry but a cornerstone of clear communication. In science museums, where education and accuracy are paramount, attention to such details is essential. By rectifying these punctuation errors, the museums in Beijing will not only improve the visitor experience but also uphold the standards of scientific dissemination.
 
+::: echarts Persentage of Punctuation Mistakes
+
+```json
+{
+  "series": [
+    {
+      "name": "Persentage of Punctuation Mistakes",
+      "type": "pie",
+      "radius": ["40%", "70%"],
+      "avoidLabelOverlap": false,
+      "itemStyle": {
+        "borderRadius": 10,
+        "borderColor": "#fff",
+        "borderWidth": 2
+      },
+      "data": [
+        { "value": 13, "name": "Comma misuse\nwithin clauses" },
+        { "value": 2, "name": "Punctuation in\ncompound/complex sentences" },
+        { "value": 1, "name": "Closing punctuation" },
+        { "value": 8, "name": "Omission of a full stop" }
+      ]
+    }
+  ]
+}
+```
+
+:::
+
 ### Spelling
 
 In this chapter, we explore the intricacies of misspellings. Our translation corpus, sourced from science museums in Beijing, has uncovered a total of 95 misspelled words, which can be roughly categorized into four types.
@@ -316,49 +334,135 @@ Lastly, the fourth and final category encompasses common mistakes such as "metal
 
 Based on the discussion above, it becomes apparent that there are multiple reasons for misspelling, thus necessitating multiple methods to deal with them. The solutions or suggestions will be discussed later.
 
----
+### Others
 
-- Capitalization
-  - "china" for "China"
-- Other
-  - Lack of explanation for abbreviations
-  - "he/she" for "they" and its variants
-  - Using Chinese font for English text.
+The rest of the mistakes are relatively difficult to categorise under any of the types of written English listed in the European Commission's _English Style Guide_, so they are shown below.
 
-::: todo
+Surprisingly, instances of determiner misuse are pervasive, occurring nearly 700 times throughout the science museum. For instance, in the following sentence: "They had not only contributed for the later generations the great world-renowned inventions such as compass, papermaking technology, gunpowder, porcelain, silk, etc. but also developed and formed Chinese ancient scientific system taking the 'astronomy, mathematics, agronomy, medicine' as its representative, which had made indelible contribution to the prosperity and social development of China, as well as the progress of world civilization." three determiner errors are evident. Firstly, the definite article "the" should precede "compass," "papermaking technology," "gunpowder," "porcelain," and "silk" since they refer to specific well-known inventions. Secondly, "the" is required before "Chinese ancient scientific system" as it denotes a specific system. Thirdly, "an" should be used before "indelible contribution" as it denotes a singular, specific contribution. The comparatively lesser use of determiners in Chinese, and their reduced grammatical functions, pose a significant challenge for Chinese translators.
 
-- Whether add a space before the left bracket?
-- Whether add a space between the number and unit?
+Incorrect verb forms are also prevalent in our corpus, occurring nearly 100 times. Verb forms pose theoretical challenges for Chinese translators due to the absence of gender, number, and case distinctions in Chinese. However, this omission in Chinese appears to alleviate the burden of memorizing two verb conjugation systems simultaneously, as seen with determiners. Various factors contribute to these errors, ranging from tense ("Peacock in ancient times known as the 'king of birds', ~~is~~ **was** an auspicious omen...") to complex predicate constructions ("In the early years of East Han Dynasty, Du Shi, Prefecture chief of Nanyang invented hydraulic bellows, which drove leather bag for blast with water wheels, not only ~~saved~~ **saving** human and animal power, but also ~~improved~~ **improving** blast capacity and boosted development of iron smelting technology.").
 
-:::
+Besides, the European Commission's _English Style Guide_ mandates the avoidance of hyphenation altogether. Although the guide does not explicitly state the rationale behind this rule, it is not difficult to surmise the reasons. Firstly, hyphenation is subject to two conflicting principles: etymological and phonetic. Secondly, the same word may be hyphenated differently across languages (e.g., "cab-ri-o-let" in English and "ca-brio-let" in French). Lastly, the rules governing hyphenation lack both intuitiveness and regularity, often necessitating reference to a dictionary even for native speakers. In essence, hyphenation lacks a widely acknowledged standard, is prone to confusion, and is challenging to execute correctly. The science museum, like many other non-super-radical organizations, employed hyphenation conventionally. However, this practice underscored the significance of prohibiting hyphenation, as over half of the hyphens used in translations within the museum were misapplied.
+
+Additionally, numerous other mistakes persist, such as capitalization issues ("China" vs. "china") and the absence of explanations for abbreviations (e.g., "TCM" for Traditional Chinese Medicine, perhaps). These errors collectively underscore the imperfect nature of the science museum's English writing.
+
+Possible solutions include encouraging translators to utilize grammar assistance tools or, albeit more costly, employing native English-speaking translators, a practice long established in the MIES (Museum, Interpretation, and Exhibition Services) industry. Both solutions will be further discussed in the subsequent Discussion and Suggestions section.
+
+## Typography
+
+As noted earlier, this study evaluates the adherence to contemporary web typography norms in the translation of content within a science museum context. It draws upon Google's web typography guide^[Fonts knowledge[EB/OL]. Google Fonts, Google[2024-05-07]. https://fonts.google.com/knowledge.], given the shared objective of both web and the science museum to effectively convey information to their respective audiences. Google, renowned for its significant influence and prominence in setting web standards, serves as a pertinent reference point.
+
+### Fonts
+
+The realm of typography encompasses a rich diversity of scripts and typefaces, each imbued with its own distinctive attributes and cultural significance. A comparative examination of Chinese and English fonts reveals disparities extending beyond mere surface aesthetics, rooted deeply in the linguistic and cultural traditions of the respective languages. This chapter aims to elucidate the four principal disparities between Latin (utilized in English) and CJK (Chinese, Japanese, Korean) fonts, assessing the appropriateness of font selection in translations within the science museum context.
+
+**1. Full-width and Monospaced vs. Half-width and Proportional**
+
+Among the most conspicuous discrepancies lies in the default character spacing. Latin fonts typically employ proportional spacing, whereby each character occupies only the necessary horizontal space, fostering a fluid and organic appearance in Latin text. Conversely, the majority of CJK fonts adopt a monospaced format, allocating uniform space to each character. This uniformity is particularly pronounced in Chinese and Japanese fonts, tailored to fit the full unit square, resulting in a more regimented and symmetrical aesthetic. Such a full-width approach is also deemed integral to preserving the intricate and detailed nature of the characters.
+
+However, within the confines of the science museum, instances of font misapplication occasionally occur. While such instances may not always be pivotal, discrepancies arise when Chinese characters are integrated into Latin fonts, prompting the latter to default to CJK fonts, or when English characters are incorporated into CJK fonts, typically with no discernible alteration given that most CJK fonts encompass basic Latin letters. Nevertheless, specific characters such as apostrophes or quotation marks may vary between full-width and half-width, contingent upon the font. Whereas a half-width apostrophe may be supplemented with a half-width space to emulate a full-width apostrophe, the reverse adaptation is considerably challenging. In such instances, the incorrect font choice becomes glaringly evident.
+
+**2. Punctuation Usage**
+
+Punctuation conventions in CJK fonts markedly diverge from those in Latin scripts. While Latin punctuation uniformly adopts a half-width format, CJK fonts often utilize a system termed "full-width punctuation," characterized by distinct and frequently wider punctuation marks compared to their Latin counterparts. In Chinese, both systems coexist, with full-width punctuation employed for formal contexts and half-width punctuation for space conservation.
+
+Beyond the full-width and half-width dichotomy elucidated earlier, certain cultural nuances warrant attention. For instance, the absence of hyphens, en dashes, and em dashes in Chinese script is notable. Conversely, the so-called "em dash" in Chinese consists of two consecutive em dashes, necessitated by technical constraints for accurate rendering under CJK fonts (otherwise resulting in a small space between the two em dashes). Consequently, the cultural context dictates a lack of precedent for combining two em dashes in English—a phenomenon unfortunately observed within the science museum (e.g., "Interesting Physical Test in Ancient China —— 'Paperman's Resonance' Test").
+
+**3. Emphasis Without Italics**
+
+In contrast to Latin fonts, which utilize italics for emphasis, CJK fonts lack this feature. While faux-italics (simulated italic effects without italic font) are occasionally employed for design purposes, genuine italics are nonexistent. Instead, alternative methods such as quotation marks, full-width brackets, and diacritical marks above letters serve as means of emphasis. Additionally, bolding and coloring are effective techniques for highlighting specific words or phrases.
+
+An interesting reversal occurs when translating text from Chinese to English, necessitating the use of italics. The science museum has indeed adopted this practice, albeit selectively. Further exploration of this matter will be undertaken in depth within the Consistency chapter.
+
+**4. Different Font Names**
+
+In the domain of typography, commonly used fonts can be broadly categorized into three forms: sans-serif, serif, and monospace (which is not addressed within the science museum). Sans-serif fonts lack decorative strokes at the ends of larger strokes in characters, whereas serif fonts feature such strokes. The existence of serifs originated from technical constraints in ancient times and holds little theoretical significance in contemporary contexts. While sans-serif fonts are typically associated with modernity, serif fonts evoke a sense of classic elegance. Both font forms find relevance within the science museum, as it bridges past and future histories. However, inconsistency arises when English and Chinese fonts adopt different forms, a situation observed in a minority of translations within the museum. For example, the Chinese font used in the description of the Copper Rosefinch Lamp is Songti (宋体), a serif font, while the English description employs a sans-serif font, resulting in an incongruous juxtaposition. For inexperienced staff, distinguishing between fonts can indeed pose challenges. To facilitate comprehension for novices seeking basic information, a concise table is provided below. Further automated solutions will be explored in the Discussion and Suggestions chapter.
+
+| Font Forms | Commonly Used Chinese Fonts                      | Commonly Used English Fonts                     |
+| ---------- | ------------------------------------------------ | ----------------------------------------------- |
+| Sans-serif | Heiti (黑体)                                     | Arial, Helvetica, Calibri, Verdana              |
+| Serif      | Songti (宋体), FangSongti (仿宋体), Kaiti (楷体) | Times New Roman, Georgia, Garamond, Baskerville |
+
+In conclusion, the disparities between CJK and Latin fonts are substantial, reflecting unique typographic traditions and linguistic structures inherent to each script. From the monospaced characteristics of CJK fonts to nuanced punctuation usage and creative emphasis techniques, these distinctions significantly influence the legibility, aesthetics, and cultural resonance of written communication. Understanding these disparities is essential not only for designers and typographers but also for the science museum to ensure accuracy, consistency, and visual appeal in their translations.
+
+### Readability
+
+Readability describes how comfortable it is for a person to engage with text. Three factors determine readability: The person’s unique attributes (visual acuity, disabilities, and other health factors), what the text itself says, and the typography—both the choice of typeface and how it’s used. In this chapter, we will only discuss the last point, since the first point depends on audience and the second point depends on the original Chinese text.
+
+Most part of the science museum did good job but still two places need to be pointed out. First is the label of Instruction on the Structure of Accelerator Model, which use dark text (black) and dark background (deep purple), causing the contrast of text and background extemly low thus getting infomation from the label is not easy. Second is a label of a swing, which is located exact under the swing. There is no possible for any audience as well as my camera to get the complete infomation from the label, so obviously its readability is very low.
+
+in conclution, typogrphy also takes a very important role in translation in the science museum. Since most of the museum's staffs are not professional in English while typography is not part of the translators' job, it necessitates an automatic method to cope with the typography issues. This automatic method will be introduced in the Discussion and Suggestions chapter.
 
 ## Consistency
 
-- Br En mix Am En
-- same zh term share diff en term
-  - 星图
-  - 云锦
-- book name
-  - italic
-  - capitalized
-  - quotation
-- title
-  - Ersten Buchstaben im Satz großschreiben.
-  - GROSSBUCHSTABEN
-  - Ersten Buchstaben Im Wort Großschreiben
-- Numeric list
-  - 1. 2. 3.
-  - (none)
-- "&" with space around or not?
-- brackets with space or not?
+Traditionally, consistency has not posed a significant challenge in the field of translation, as the volume of source text has typically been manageable for a single translator, allowing sufficient time for completion. Given that all translations within a project are typically executed by one individual, consistency in translation has generally been reliable. However, with the increasing scale of projects today, consistency has emerged as a major concern, not only in the translation of the MIES industry and science museum sectors but also in any large-scale projects. Several consistency issues have been identified within the museum context.
+
+Firstly, there is a notable mixture of British and American English usage, as previously mentioned. While such variation may be acceptable and comprehensible in casual contexts for English speakers, within the formal or even academic atmosphere of a museum, this mixed usage may lead the audience to perceive the content as less professional or persuasive, thereby diminishing the efficacy of promoting Chinese science culture.
+
+Secondly, inconsistencies arise in the translation of Chinese terms across different locations. For instance, the term 云锦 has been translated as "Yun Jin brocade," "Ryun Jin Brocade," and simply "Brocade" on three adjacent exhibit labels. While the Chinese labels indicate the presence of three distinct subtypes of 云锦, the English labels may erroneously convey the concept of three entirely different types of brocade. Another example is 操作指南, which is rendered with four different English translations in the museum: "Operating instructions," "Instructions," "Operation instruction," and "OPERATION GUIDE." Such inconsistency in terminology can lead to significant misunderstandings among the audience. In the MIES industry, such issues are more prevalent and severe due to the mandatory nature of text comprehension, as opposed to the optional reading typical of museum visits. Fortunately, the MIES industry has already devised solutions for addressing such situations, which can be readily integrated into traditional translation workflows. Further details will be discussed in the Discussion and Suggestions chapter.
+
+Thirdly, inconsistencies in formatting and patterns, akin to the mixed English usage, often result in textual ambiguity and detract from the overall formality and professionalism of the text. Such inconsistencies manifest in various aspects within the museum, including the formatting of book titles (e.g., italicized _Zhou Bi Suan Jing_, capitalized Compendium of Materia Medica, quoted "The Origin of Calendar," etc.), exhibit titles (e.g., sentence-cased "Pitch pipe," uppercased "AR SCAN OF ABRIDGED ARMILLA," each-word capitalized "Ancient Herbal Medicine Shop," etc.), and numeric lists (e.g., "1. 2. 3." with spaces, "1.2.3." without spaces, or the omission of list numbers from the translation despite their presence in the Chinese source text), among others.
+
+In conclusion, ensuring consistency in translation is paramount, particularly in contexts where professionalism, clarity, and accuracy are essential, such as in the science museum. The identified issues of language variation, inconsistent terminology, and formatting discrepancies underscore the importance of implementing rigorous translation standards and quality control measures. By addressing these concerns, organizations can enhance the effectiveness of their communication efforts and better fulfill their objectives of promoting cultural exchange and knowledge dissemination. Therefore, the Discussion and Suggestions chapter will delve into practical strategies for mitigating these challenges and optimizing translation practices within these specialized domains.
 
 ## Style and Tone
 
 Use large language models to evaluate the sentiment^[CAMACHO-COLLADOS J, REZAEE K, RIAHI T, 等. TWEETNLP: Cutting-edge natural language processing for social media[J]. Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing: System Demonstrations, 2022. ]^[LOUREIRO D, BARBIERI F, NEVES L, 等. TimeLMs: Diachronic language models from Twitter[J]. Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics: System Demonstrations, 2022. ] and formality^[BABAKOV N, DALE D, GUSEV I, 等. Don’t lose the message while paraphrasing: A study on content preserving style transfer[J]. Natural Language Processing and Information Systems, 2023: 47–61. ] of the text.
 
+::: todo
+to be coded
+:::
+
 ## Multimodal
 
-- No translation.
+Multimodal translation pertains to the translation of video, which combines human senses including listening and watching, while simulating other senses like touch remains challenging. In this chapter, we explore video translation within the context of science museums.
+
+Our field research reveals that the majority of videos in the science museum only feature Chinese content (images, audio, subtitles, etc.). On the fourth floor, there are screens displaying short videos from Microsoft with both Chinese and English subtitles. However, as these videos serve as commercial propaganda advertisements for the company, their translations are provided by Microsoft rather than the science museum and thus will not be discussed in this paper.
+
+Adjacent to the Microsoft videos, another bilingual subtitled video discusses analog and digital quantities. The transcription of its subtitles can be found below. Nonetheless, the overall translation quality is notably low and likely a result of machine translation. As outlined by Luo^[罗季美,李梅.机器翻译译文错误分析[J].中国翻译,2012,33(05):84-89.], common errors in machine translation include term inconsistency and mistranslation of infinitive verb structures. In this video, term inconsistency occurs multiple times, such as translating 榕哥 into "Rong brother," "Rong elder brother," and "brother rong." Additionally, mistranslation of infinitive verb structures is evident, for instance, "Yeah, got it. It's better to look for Rong." is inaccurately translated as "Well To understand or to find reliable brother rong," likely due to dual meanings present in some Chinese words.
+
+
+| Source Text (Chinese)                        | Target Text (English)                                                      |
+| -------------------------------------------- | -------------------------------------------------------------------------- |
+| 模拟量与数字量                               | Analog quantity and digital quantity                                       |
+| 咦                                           | Hey                                                                        |
+| 稞稞 你在干嘛呢                               | Keke what are you doing                                                    |
+| 我在想模拟量和数字量是什么                   | What do I want to do with analog andj digital                              |
+| 它们又有什么区别和联系                       | What are the differences and connections between them                      |
+| 恩 这个我也不知河                            | Well I don't know                                                          |
+| 不过我们可以去问榕哥呀                       | but we can ask Rong brother ah                                             |
+| 好的 青青                                    | All right Qingqing                                                         |
+| 榕哥 你可以给我们讲一下                      | Rong elder brother can you tell us                                         |
+| 什么是模拟量与数字量吗                       | about what is analog and digital                                           |
+| 当然可以                                     | Certainly                                                                  |
+| 模拟量与数字量的原理                         | The principle of analog quantity and digital quantity                      |
+| 模拟量就是在时间和数量上都是连续变化的物理量 | Analog quantity is a continuous change of                                  |
+| 都是连续变化的物理量                         | of physical quantity both in time and quantity                             |
+| 比如压力 温度                                | Such as pressure temperature                                               |
+| 电压 电流 转速等                             | voltage current speed etc                                                  |
+| 而数字量则是在时间和数量上                   | And the number is the amount of time and quantity                          |
+| 都是离散的物理量                             | are discrete physical quantity                                             |
+| 比如灯的亮和灭                               | For example the lights and the lights out                                  |
+| 电视机的开和关                               | the TV set on and off                                                      |
+| 交通信号灯的切换                             | traffic signal lamp switch                                                 |
+| 噢 原来是这样                                | Oh that's the way it was                                                   |
+| 那模拟量与数字量的区别是什么                 | What is the difference between analog and digital                          |
+| 广义的讲 模拟量在连续的变化过程中            | In a broad sense it is a physical quantity                                 |
+| 任意一个取值都是一个                         | that has a specific meaning in the process                                 |
+| 有具体意义的物理量                           | of continuous change                                                       |
+| 而数字量在离散过程中                         | and the numerical value is only a numerical value                          |
+| 仅仅是一个数值                               | in the process of discretization                                           |
+| 榕哥 你再讲讲                                | Rong brother you talk about                                                |
+| 模拟量与数字量的联系吧                       | analog and digital volume of the link                                      |
+| 简单来说 数字量是由0和1组成的信号            | In simple terms the number is composed of 0 and 1 components of the signal |
+| 经过编码形成有规律的信号                     | through the code to form a regular signal                                  |
+| 量化后的模拟量就是数字量                     | quantitative simulation is the number of digital                           |
+| 模拟量也可以看作是数字量                     | the analog quantity can also be regarded as the continuous change of       |
+| 在时间和数值上连续的变化                     | the mumber in the time and the numerical value                             |
+| 嗯 听懂了 还是找榕哥靠谱                     | Well To understand or to find reliable brother rong                        |
+| 谢谢榕哥                                     | Thank you brother rong                                                     |
+
+In conclusion, the examination of multimodal translation within the science museum context underscores several key findings. While videos predominantly feature Chinese content, the presence of bilingual subtitled videos, notably those from Microsoft, adds a layer of linguistic diversity. However, the translation quality of these videos varies, with some exhibiting machine-translated inaccuracies. These findings highlight the importance of ensuring high-quality translation in multimodal environments to enhance visitor experiences and promote effective communication of scientific concepts.
 
 ## Interactivity
 
@@ -372,11 +476,10 @@ Use large language models to evaluate the sentiment^[CAMACHO-COLLADOS J, REZAEE 
 
 <section>
 
-::: todo
-
-TBD
-
-:::
+- make the progress automatic
+- use variety
+- use grammar assistant tools
+- recruit local translators
 
 </section>
 

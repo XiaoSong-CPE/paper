@@ -7,7 +7,7 @@ import markdownItContainer from 'markdown-it-container'
 import * as echarts from 'echarts'
 import draftString from '@/draft.md?raw'
 import { nextTick, onMounted } from 'vue'
-import '@/assets/pubcss-ieee.css'
+import css from '@/assets/pubcss-ieee.css?raw'
 // import '@/assets/pubcss-acm-sig.css'
 // import '@/assets/pubcss-acm-sigchi-ea.css'
 // import '@/assets/pubcss-acm-sigchi.css'
@@ -108,7 +108,7 @@ onMounted(async () => {
 </script>
 
 <template>
-  <div v-html="draft"></div>
+  <div v-html="`<style>${css}</style>${draft}`"></div>
 </template>
 
 <style>
@@ -138,6 +138,9 @@ ul li {
 @media print {
   .page-break {
     page-break-after: always;
+  }
+  .to-do {
+    display: none;
   }
 }
 </style>
