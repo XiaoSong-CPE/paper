@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import { NCard, NFlex } from 'naive-ui'
 </script>
 
 <template>

@@ -5,8 +5,6 @@ import MarkdownIt from 'markdown-it'
 import markdownItKatex from '@iktakahiro/markdown-it-katex'
 import { h } from 'vue'
 import { parse } from 'csv-parse/browser/esm/sync'
-import 'github-markdown-css/github-markdown.css'
-import 'mdui/mdui.css'
 
 let md = new MarkdownIt({
   breaks: true
@@ -36,7 +34,6 @@ for (let index = 0; index < rawData.length; index++) {
   const element = rawData[index]
   res = res + element.English + '\n'
 }
-console.log(res)
 let rowData: RowData[] = rawData.map((row, index) => {
   return {
     ...row,
