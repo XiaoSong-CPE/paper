@@ -44,10 +44,6 @@ function autoHeadingsPrefix(ele: HTMLElement) {
   let h6Counter = 0
   for (let index = 0; index < headings.length; index++) {
     const element = headings[index]
-    // skip <h1>References</h1>
-    if (element.textContent === 'References') {
-      continue
-    }
     // h1
     if (element.tagName === 'H1') {
       h1Counter++
@@ -56,7 +52,6 @@ function autoHeadingsPrefix(ele: HTMLElement) {
       h4Counter = 0
       h5Counter = 0
       h6Counter = 0
-      element.textContent = `Chapter ${h1Counter} ${element.textContent}`
     }
     // h2
     if (element.tagName === 'H2') {
