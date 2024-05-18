@@ -357,7 +357,8 @@ code {
 }
 // basic print paper setting
 @page {
-  size: A4;
-  margin: 3cm 2.5cm 2.5cm 2.5cm;
+  width: 16cm;
+  height: 24.2cm;
+  margin: 0;
 }
 </style>
