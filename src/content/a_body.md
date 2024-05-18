@@ -425,13 +425,13 @@ The accurate English translation is crucial for the CSTM, a museum visited by au
 
 ## Automation
 
-Automation is a pivotal aspect of the MIES industry, where large-scale projects necessitate efficient and accurate translation workflows. Automation tools are widely employed to streamline translation processes, enhance productivity, and minimize errors. In this chapter, we propose integrating automation tools into the translation workflow at CSTM to optimize efficiency and elevate translation quality.
+Automation plays a crucial role in the MIES industry, where large-scale projects demand efficient and accurate translation workflows. Automation tools are widely used to streamline translation processes, enhance productivity, and minimize errors. In this chapter, we propose integrating automation tools into the translation workflow at CSTM to optimize efficiency and elevate translation quality.
 
 ### Variables
 
-In computer science, variables are descriptive names that reference locations in main memory^[BROOKSHEAR J G, BRYLOW D. Computer science: An overview[M]. Harlow etc.: Pearson, 2020.]. For simplicity, we can regard a variable as an alias for a term, allowing the term to be translated once and used multiple times. If the alias is misspelled, an explicit error message should notify the translator.
+In computer science, variables are descriptive names that reference locations in main memory^[BROOKSHEAR J G, BRYLOW D. Computer science: An overview[M]. Harlow etc.: Pearson, 2020.]. For simplicity, we can regard a variable as an alias for a term, allowing the term to be translated once and reused multiple times. If the alias is misspelled, an explicit error message should notify the translator.
 
-Below are examples of the use of variables in _Subnautica: Below Zero_ by Unknown Worlds Entertainment. Table 3 shows full sentences in English and their corresponding translations in German. The variables `{0}` represent item names, which are shown in Table 4. The results of using variables and item names are displayed in Table 5.
+Below are examples of the use of variables in _Subnautica: Below Zero_ by Unknown Worlds Entertainment. The sentences in Table 3 containing `{0}` will be processed by a specific application that replaces `{0}` with the translated text of item names shown in Table 4.
 
 <div class="caption">Examples of the use of variables</div>
 
@@ -449,6 +449,8 @@ Below are examples of the use of variables in _Subnautica: Below Zero_ by Unknow
 | Synthetic fibers      | Synthetikfasern      |
 | Polyaniline           | Polyanilin           |
 
+The examples demonstrate that both item names and sentences are translated only once. With three item names and three sentences, there are at most nine possible combinations, all grammatically and spelling correct, provided the translations are accurate. Using variables reduces repetitive work and minimizes the possibility of inconsistencies when a term or a slightly modified sentence appears multiple times.
+
 <div class="caption">Possible results of the use of variables and item names</div>
 
 | Source Text (English)                                        | Target Text (German)                                                         |
@@ -463,9 +465,19 @@ Below are examples of the use of variables in _Subnautica: Below Zero_ by Unknow
 | Crafting of Synthetic fibers is complete. Ready for pickup.  | Die Herstellung von Synthetikfasern ist abgeschlossen. Fertig zum Mitnehmen. |
 | Crafting of Polyaniline is complete. Ready for pickup.       | Die Herstellung von Polyanilin ist abgeschlossen. Fertig zum Mitnehmen.      |
 
-The examples demonstrate that item names are translated only once, as are the sentences. With three item names and three sentences, there are at most nine possible results, all grammatically and spelling correct, provided the translations are accurate. Using variables reduces repetitive work and minimizes the possibility of inconsistencies when a term or a slightly modified sentence appears multiple times.
+Note that variables are not necessarily `{0}`. Their format depends on the parser or program handling the variables. In the case of _Subnautica: Below Zero_, `{` and `}` are used because they rarely appear in normal sentences, while `0` represents the first variable used in the text. Additional variables in a single text string are presented as `{1}`, `{2}`, and so on. Other common variable forms include `{{0}}`, `%0%`, `<<0>>`, etc.
 
-Note that variables are not necessarily `{0}`. Their format depends on the parser or program handling the variables. In the case of _Subnautica: Below Zero_, `{` and `}` are used because they rarely appear in normal sentences, while `0` represents the first variable used in the text. More variables in a single text string are presented as `{1}`, `{2}`, and so on. Other common variable forms include `{{0}}`, `%0%`, `<<0>>`, etc. List variables named with numbers are not quite suitable in the context of a science museum. Named variables like `{操作指南}`, `{{操作指南}}`, `%操作指南%`, or `<<操作指南>>` are better in this context. As previously mentioned, `操作指南` has been translated into several different English terms in the CSTM. Using such variables ensures `操作指南` is translated only once, and all other uses refer to this variable, significantly reducing inconsistencies.
+In the context of a science museum, numbered variables might not be suitable. Named variables like `{操作指南}`, `{{操作指南}}`, `%操作指南%`, or `<<操作指南>>` are more appropriate. For example, `操作指南` has been translated into several different English terms in the CSTM. Using such variables ensures `操作指南` is translated only once, with all other uses referring to this variable, significantly reducing inconsistencies. 
+
+Here is an example of the use of named variables in the CSTM. The names of variables are set to exactly match the Chinese text, making the use of variables more intuitive and ensuring that translators can easily understand their meanings.
+
+<div class="caption">Examples of the use of variables in the CSTM</div>
+
+| Source Text (Chinese)                                | Target Text (English)                                                                   |
+| ---------------------------------------------------- | --------------------------------------------------------------------------------------- |
+| 操作指南                                             | Instructions                                                                            |
+| 操作指南：将水缓慢装入杯中，注意观察会发生什么现象。 | {操作指南}: Slowly pour water into the cup and observe what happens.                    |
+| 操作指南：按下按钮，观看玻璃窗中牵星板模型。         | {操作指南}: Press the button to watch the star drawing board model in the glass window. |
 
 ### Automatic Text Importation
 
