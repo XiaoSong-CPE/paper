@@ -2,13 +2,11 @@
 import md from '@/md'
 import * as echarts from 'echarts'
 import a_body from '@/content/a_body.md?raw'
-import a_body_zh from '@/content/a_body_zh.md?raw'
 import b_annex from '@/content/b_annex.md?raw'
 import { nextTick, onMounted, ref } from 'vue'
 import wordsCount from 'words-count'
 
 let a_body_ele = ref<HTMLElement | null>(null)
-let a_body_zh_ele = ref<HTMLElement | null>(null)
 let b_annex_ele = ref<HTMLElement | null>(null)
 
 // rerender <img> to <figure>
@@ -121,20 +119,27 @@ function processRef(ele: HTMLElement) {
     cite.outerHTML = cite.innerHTML
   })
 }
-
+// order references
+function orderRef() {
+  let refList = Array.from(document.querySelectorAll('.references cite'))
+  refList.sort((a, b) => {
+    return a.textContent!.localeCompare(b.textContent!)
+  })
+  let refEle = document.querySelector('.references')
+  let num = 1
+  refList.forEach((ref) => {
+    ref.textContent = `[${num++}]${ref.textContent}`
+    refEle?.appendChild(ref)
+  })
+}
 onMounted(() => {
   if (!a_body_ele.value) return
-  if (!a_body_zh_ele.value) return
   rerenderImg(a_body_ele.value)
-  rerenderImg(a_body_zh_ele.value)
   autoHeadingsPrefix(a_body_ele.value)
-  autoHeadingsPrefix(a_body_zh_ele.value)
   autoFigcaptionPrefix(a_body_ele.value)
-  autoFigcaptionPrefix(a_body_zh_ele.value)
   autoCaptionPrefix(a_body_ele.value)
-  autoCaptionPrefix(a_body_zh_ele.value)
   processRef(a_body_ele.value)
-  processRef(a_body_zh_ele.value)
+  orderRef()
 })
 
 onMounted(async () => {
@@ -175,10 +180,8 @@ const wordsCounted = wordsCount(
     .replace(/```[\s\S]*?```/g, '') // remove code block
     .replace(/<[^>]*>/g, '') // remove html tag
 )
-const todoCounted = a_body.match(/::: todo/g)?.length || 0
 let displayRef = ref(true)
 let displayAnnex = ref(false)
-let displayChinese = ref(false)
 </script>
 
 <template>
@@ -187,19 +190,15 @@ let displayChinese = ref(false)
       <n-button type="primary" @click="print()"> 打印 </n-button>
       <n-button @click="scroll2Ref()"> 查看参考文献 </n-button>
       <n-tag type="info"> 词数统计：约{{ wordsCounted }}词 </n-tag>
-      <n-tag type="error"> 未完成：{{ todoCounted }}处 </n-tag>
       <n-checkbox v-model:checked="displayRef"> 显示参考文献 </n-checkbox>
       <n-checkbox v-model:checked="displayAnnex"> 显示附录 </n-checkbox>
-      <n-checkbox v-model:checked="displayChinese"> 显示中文</n-checkbox>
     </n-flex>
   </div>
   <div
     ref="a_body_ele"
     :class="displayRef ? '' : 'hide-ref'"
     v-html="md.render(a_body)"
-    v-show="!displayChinese"
   ></div>
-  <div ref="a_body_zh_ele" v-html="md.render(a_body_zh)" v-show="displayChinese"></div>
   <div ref="b_annex_ele" v-html="md.render(b_annex)" v-show="displayAnnex"></div>
 </template>
 
@@ -288,23 +287,6 @@ table {
     display: block;
     font-style: normal;
   }
-  cite:before {
-    counter-increment: cite-counter; /* Increment the counter */
-    content: '[' counter(cite-counter) '] '; /* Add the counter before the content */
-  }
-}
-.to-do {
-  background-color: #f8d7da;
-  border-color: #f5c6cb;
-  color: #721c24;
-  padding: 0.75rem 1.25rem;
-  margin: 1rem 0;
-  border: 1px solid transparent;
-  border-radius: 0.25rem;
-}
-.to-do-title {
-  font-weight: bold;
-  margin-bottom: 1rem;
 }
 ul {
   margin: 1em 0 1em 2em;
@@ -333,6 +315,9 @@ code {
   background-color: #afb8c133;
   border-radius: 6px;
   color: #1f2328;
+}
+.footnote-backref {
+  display: none;
 }
 /* for print */
 @media print {

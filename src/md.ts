@@ -9,16 +9,6 @@ const md = markdownIt({
 })
   .use(markdownItAnchor)
   .use(markdownItFootnote)
-  .use(markdownItContainer, 'todo', {
-    validate: (params: any) => params.trim().match(/^todo$/),
-    render: (tokens: any, idx: any) => {
-      if (tokens[idx].nesting === 1) {
-        return `<div class="to-do"><div class="to-do-title">TO DO</div>\n`
-      } else {
-        return '</div>'
-      }
-    }
-  })
   .use(markdownItContainer, 'echarts', {
     validate: (params: any) => params.trim().match(/^echarts\s+(.*)$/),
     render: (tokens: any, idx: any) => {
@@ -47,13 +37,13 @@ md.renderer.rules.footnote_open = (tokens, idx, options, env, slf) => {
 }
 md.renderer.rules.footnote_close = () => '</cite>'
 md.renderer.rules.footnote_ref = (tokens, idx, options, env, slf) => {
-  // @ts-ignore
-  const id = slf.rules.footnote_anchor_name(tokens, idx, options, env, slf)
-  let refid = id
-
-  if (tokens[idx].meta.subId > 0) refid += `:${tokens[idx].meta.subId}`
-
-  return `<a href="#fn${id}" id="fnref${refid}" class="footnote-ref">[${id}]</a>`
+  const index = tokens[idx].meta.id as number
+  const refText = env.footnotes.list[index].content
+  const name = refText.match(/^(.*?)[,|.|[]/)?.[1] || refText
+  const year = refText.match(/\d{4}/)?.[0] || '!!!!'
+  console.log(` (${name}, ${year})`);
+  return ` (${name}, ${year})`
 }
+md.renderer.rules.render_footnote_anchor = () => ''
 
 export default md
