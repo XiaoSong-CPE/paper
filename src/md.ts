@@ -44,6 +44,5 @@ md.renderer.rules.footnote_ref = (tokens, idx, options, env, slf) => {
   console.log(` (${name}, ${year})`);
   return ` (${name}, ${year})`
 }
-md.renderer.rules.render_footnote_anchor = () => ''
 
 export default md

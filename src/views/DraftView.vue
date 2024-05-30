@@ -128,7 +128,7 @@ function orderRef() {
   let refEle = document.querySelector('.references')
   let num = 1
   refList.forEach((ref) => {
-    ref.textContent = `[${num++}]${ref.textContent}`
+    ref.textContent = `[${num++}]${ref.textContent?.replace('↩︎','')}`
     refEle?.appendChild(ref)
   })
 }
@@ -316,9 +316,6 @@ code {
   border-radius: 6px;
   color: #1f2328;
 }
-.footnote-backref {
-  display: none;
-}
 /* for print */
 @media print {
   h1 {
@@ -332,9 +329,6 @@ code {
   figure {
     page-break-inside: avoid;
   }
-  .to-do {
-    display: none;
-  }
   // display <a> link
   a:not([href^='#fn'])::after {
     content: ' (' attr(href) ')';
@@ -342,8 +336,13 @@ code {
 }
 // basic print paper setting
 @page {
+/*
   width: 16cm;
   height: 24.2cm;
   margin: 0;
+  */
+  size: A4;
+  margin: 3cm 2.5cm 2.5cm 2.5cm;
+  //margin: 0;
 }
 </style>
